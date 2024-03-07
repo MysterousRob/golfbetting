@@ -7,14 +7,15 @@ import './App.css';
 
 function App() {
   return (
-    <header className="header">
-  <div className="head" className="header">
-    <h1>Golf Betting</h1>
-        <div className="nav">
+    <div className='in-body'>
+      <header className='to-head'>
+          <h1 className='header'>Golf Betting</h1>
           <div className='buttons'>
-            <button href="">Betting tips</button>
-            <button href="">Live Odds</button>
-            <button href=""></button>
+            <nav>
+            <span><button ahref="#">Betting Tips</button></span>
+            <span><button ahref="#">Golf Odds</button></span>
+            <span><button ahref="#">Bets this Week</button></span>
+            </nav>
           </div>
       </header>
       <section>

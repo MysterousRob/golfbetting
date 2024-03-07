@@ -1,1 +1,16 @@
+.in-body{
+  background-color: black;
+  color: white;
+}
+.to-head{
+  color: white;
+}
+.header{
+color: white;
+background-color: black;
+}
+.buttons{
+align-items: baseline;
+align-self: flex-end;
 
+}
