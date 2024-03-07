@@ -1,7 +1,7 @@
 
 
 function Competition(){
-    const theMasters{
+    const theMasters {
         return (
             <div>
             <h1>The Masters</h1>
@@ -9,7 +9,7 @@ function Competition(){
             </div>
         );
     };
-    const usOpen{
+    const usOpen {
         return (
             <div>
             <h1>The Us Open</h1>
@@ -17,7 +17,7 @@ function Competition(){
             </div>
         );
     };
-    const theOpen{
+    const theOpen {
         return (
             <div>
             <h1>The Open Championship</h1>

@@ -14,3 +14,6 @@ align-items: baseline;
 align-self: flex-end;
 
 }
+.header{
+  size: 30px;
+}

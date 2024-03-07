@@ -1,26 +1,24 @@
 import './App.css';
-
-
+import './index.css';
+import Button from './button';
 
 //function NewPage
 
 
 function App() {
+const handleClick =() => {
+  console.log('Button Clicked');
+};
   return (
     <div className='in-body'>
       <header className='to-head'>
-          <h1 className='header'>Golf Betting</h1>
-          <div className='buttons'>
-            <nav>
-            <span><button ahref="#">Betting Tips</button></span>
-            <span><button ahref="#">Golf Odds</button></span>
-            <span><button ahref="#">Bets this Week</button></span>
-            </nav>
-          </div>
+        <h1>Golf Betting</h1>
+      <div>
+        <button ahref="#" onClick={handleClick}>Betting Tips</button> 
+        <button ahref="#" onClick={handleClick}>Live Odds</button>
+        <button ahref="#" onClick={handleClick}>Bets of the Week</button>
+      </div>
       </header>
-      <section>
-
-      </section>
     </div>
   );
 }
