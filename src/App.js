@@ -11,14 +11,14 @@ const handleClick =() => {
 };
   return (
     <div className='in-body'>
-      <header className='to-head'>
+      <header className='App-header'>
         <h1>Golf Betting</h1>
-      <div>
-        <button ahref="#" onClick={handleClick}>Betting Tips</button> 
-        <button ahref="#" onClick={handleClick}>Live Odds</button>
-        <button ahref="#" onClick={handleClick}>Bets of the Week</button>
-      </div>
       </header>
+      <div>
+        <button>Betting Tips</button> 
+        <button>Live Odds</button>
+        <button>Bets of the Week</button>
+      </div>
     </div>
   );
 }
