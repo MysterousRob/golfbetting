@@ -1,14 +1,13 @@
+import React from 'react';
+import ReactDOM  from 'react';
 import './App.css';
 import './index.css';
-import Button from './button';
+import Competiton from './tournaments/tournaments';
 
 //function NewPage
 
 
 function App() {
-const handleClick =() => {
-  console.log('Button Clicked');
-};
   return (
     <div className='in-body'>
       <header className='App-header'>
