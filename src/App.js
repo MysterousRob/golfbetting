@@ -13,12 +13,10 @@ function App() {
       <header className='App-header'>
         <h1>Golf Betting</h1>
       </header>
-      <div>
         <button>Betting Tips</button> 
         <button>Live Odds</button>
         <button>Bets of the Week</button>
-      </div>
-    </div>
+    </div> 
   );
 }
 
