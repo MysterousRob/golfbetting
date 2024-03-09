@@ -40,7 +40,7 @@ font-size: 17px;
   background-color: black;
   min-height: 50px;
   display: flex;
-  flex-direction: row;
+  align-content: flex-start;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
@@ -48,4 +48,7 @@ font-size: 17px;
   margin: 0;
   padding: 20px;
   font-size: 35px;
+}
+.h1 {
+  padding: 6px;
 }
