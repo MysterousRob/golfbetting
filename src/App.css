@@ -1,6 +1,7 @@
 .in-body{
   background-color: black;
   color: white;
+  flex-direction: row;
 }
 .to-head{
   color: white;
@@ -8,6 +9,8 @@
 .header{
 color: white;
 background-color: black;
+
+
 }
 .buttons{
 align-items: baseline;
