@@ -1,3 +1,8 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 .in-body{
   background-color: black;
   color: white;
@@ -20,6 +25,7 @@ background: transparent;
 border: none;
 color: white;
 padding: 5px;
+font-size: 17px;
 }
 .nav * :hover {
   border: 1px solid white;
@@ -31,7 +37,7 @@ padding: 5px;
   size: 30px;
 }
 .App-header {
-  background-color: #282c34;
+  background-color: black;
   min-height: 50px;
   display: flex;
   flex-direction: row;
@@ -39,4 +45,7 @@ padding: 5px;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  margin: 0;
+  padding: 20px;
+  font-size: 35px;
 }
