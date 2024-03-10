@@ -16,11 +16,13 @@ function App() {
         <button href="#" onClick= {() => console.log('Bets of the Week button clicked')}><span>Bets of the Week</span></button>
       </div>  
       </header>
-      <div>
-        <Competiton />
+      <div className='tips'>
+        <h1>Golf Betting tips</h1>
       </div>
     </div> 
   );
 }
 
+
 export default App;
+

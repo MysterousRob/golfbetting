@@ -4,9 +4,7 @@
   box-sizing: border-box;
 }
 .in-body{
-  background-color: black;
   color: white;
-  flex-direction: row;
 }
 .to-head{
   color: white;
@@ -51,4 +49,9 @@ font-size: 17px;
 }
 .h1 {
   padding: 6px;
+}
+.tips {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: rgb(22, 130, 202);
 }
