@@ -4,6 +4,8 @@ import './index.css';
 import Competiton from './tournaments/tournaments';
 //function NewPage
 
+
+
 function App() {
   return (
     <div className='in-body'>
@@ -20,17 +22,17 @@ function App() {
             Betting Tips
           </span>
         </button> 
-        <button onClick= {() =>  {window.location.href = './golfbettingtips.js'}}>
+        <button onClick= {() =>  {window.location.href = './livegolfodds.js'}}>
           <span>
             Live Odds
           </span>
         </button>
-        <button onClick= {() =>   {window.location.href = './golfbettingtips.js'}}>
+        <button onClick= {() =>   {window.location.href = './Betsoftheweek.js'}}>
           <span>
             Bets of the Week
           </span>
         </button>
-        <button href="#" onClick= {() => console.log('Betting Sites button clicked')}>
+        <button href="#" onClick= {() =>   {window.location.href = './golfbettingsites.js'}}>
           <span>
             Betting Sites
           </span>
