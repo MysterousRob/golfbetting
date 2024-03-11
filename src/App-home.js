@@ -18,22 +18,22 @@ function App() {
             Home
           </span>
         </button>
-        <button onClick= {() =>  {window.location.href = './golfbettingtips.js-home'}}>
+        <button onClick= {() =>  {window.location.href = './golfbettingtips.js-betingtips'}}>
           <span>
             Betting Tips
           </span>
         </button> 
-        <button onClick= {() =>  {window.location.href = './livegolfodds.js'}}>
+        <button onClick= {() =>  {window.location.href = './livegolfodds.js-LiveOdds'}}>
           <span>
             Live Odds
           </span>
         </button>
-        <button onClick= {() =>   {window.location.href = './Betsoftheweek.js'}}>
+        <button onClick= {() =>   {window.location.href = './Betsoftheweek.jsBetsoftheweek'}}>
           <span>
             Bets of the Week
           </span>
         </button>
-        <button href="#" onClick= {() =>   {window.location.href = './golfbettingsites.js'}}>
+        <button onClick= {() =>   {window.location.href = './golfbettingsites.js-bettingsites'}}>
           <span>
             Betting Sites
           </span>
