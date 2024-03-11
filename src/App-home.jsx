@@ -12,12 +12,13 @@ function App() {
       <header className='App-header'>
         <h1 className='h1'>Golf Betting</h1>
       <div className='nav'>
+        {/*need to figgure out why my nav buttons arent working as i want them to nav to individual files */}
         <button onClick= {() => {window.location.href = './App-home.js-home'}}>
           <span>
             Home
           </span>
         </button>
-        <button onClick= {() =>  {window.location.href = './golfbettingtips.js'}}>
+        <button onClick= {() =>  {window.location.href = './golfbettingtips.js-home'}}>
           <span>
             Betting Tips
           </span>
