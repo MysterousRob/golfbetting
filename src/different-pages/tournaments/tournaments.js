@@ -2,19 +2,14 @@ import UsPga from './uspga';
 import OpenChamp from './openchamp';
 import TheMasters from './themaster';
 import TheOpen from './theopen';
-
+import './tourniecss/tournament.css'
 function Competiton() {
-    const golfTournaments = [TheMasters, OpenChamp, TheOpen, UsPga];
-
-    const renderGolfTournaments = () => {
-        golfTournaments.map((TournamentComponent) => (
-           <TournamentComponent key={TournamentComponent.name || 'tournament'} /> 
-        ));
-    };
-
     return (
-        <div>
-            {renderGolfTournaments}
+        <div className='compete'>
+        <UsPga />
+        <OpenChamp />
+        <TheMasters />
+        <TheOpen /> 
         </div>
     ); 
 }
