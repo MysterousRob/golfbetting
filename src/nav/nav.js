@@ -1,8 +1,8 @@
 import React from "react";
 
 
-export const navOptions = [
-    {
+export let navOptions = [
+   {
       href: "different-pages\Apphome.js",
       title: "Home",
     },
@@ -25,7 +25,7 @@ export const navOptions = [
     
 ]
 
-export const tournaments [
+export const tournaments = [
   {
     href: "different-pages\tournaments\openchamp.js",
     title: "The Open",
@@ -37,9 +37,9 @@ export const tournaments [
   {
     href: "different-pages\tournaments\theopen.js",
     title: "The British Open",
-  },,
+  },
   {
-    href: "different-pages\tournaments\uspga.js",
+    href: "different-pages/tournaments/uspga.js",
     title: "US PGA Championship",
   },
   {

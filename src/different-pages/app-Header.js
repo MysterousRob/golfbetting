@@ -1,10 +1,10 @@
 import React from 'react';
-import './App.css';
-import './index.css';
+
+import './css/App-header.css';
 import Competiton from './tournaments/tournaments';
+import { navOptions } from '../nav/nav';
+import '../nav/nav';
 //function NewPage
-
-
 
 function Header() {
   
@@ -16,7 +16,7 @@ function Header() {
         </h1>
       <div className='nav'>
         {/*need to figgure out why my nav buttons arent working as i want them to nav to individual files */}
-        <button onClick= {}>
+        <button>
           <span>
             Home
           </span>
@@ -43,11 +43,6 @@ function Header() {
         </button>
       </div>  
       </header>
-      <div className='tips'>
-        <h1>
-          Home
-        </h1>
-      </div>
     </div> 
   );
 

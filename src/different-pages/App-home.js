@@ -1,13 +1,15 @@
 import React from 'react';
-import './App.css';
-import './index.css';
-import Competiton from './tournaments/tournaments';
+import './css/app.css';
+import './css/index.css';
+import Header from './app-Header';
 //function NewPage
 
 
 
 function Home() {
-  
+  <div>
+  <Header />
+  </div>
   return (
       <div className='tips'>
         <h1>
