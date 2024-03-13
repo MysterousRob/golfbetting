@@ -2,6 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  background-color: rgb(0, 0, 0, 0.1);
 }
 .in-body{
   color: white;
@@ -53,5 +54,14 @@ font-size: 17px;
   margin-top: 20px;
   padding: 20px;
   background-color: rgb(22, 130, 202);
+  font-size: 30px;
+}
+
+/* foooter */
+.foot {
+  margin: 0;
+  background-color: black;
+  color: white;
+  text-align: center;
   font-size: 30px;
 }
