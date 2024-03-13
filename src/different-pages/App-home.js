@@ -11,10 +11,10 @@ import Section from './forhomepg/footer';
 function Home() {
   return (
     <div>
-      <Header />
+     <Header />
      <Competiton />
      <Section />
-    </div>
+    </div> 
   );
 
 }
