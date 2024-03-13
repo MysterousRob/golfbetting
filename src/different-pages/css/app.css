@@ -68,3 +68,9 @@ font-size: 17px;
  .p1 {
   text-align: center;
  }
+ .Photos {
+  display: flex;
+}
+.contact-info {
+  margin: 0;
+}
