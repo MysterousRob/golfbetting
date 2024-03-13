@@ -6,4 +6,19 @@
     font-size: 30px;
     color: white;
   }
-  
+  /*need to do css for head/paragraph/bubble for all the different tournaments*/
+  .bubble * {
+    margin: 5px;
+    padding: 20px;
+    display: inline-block;
+  }
+  .head {
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+  }
+.paragraph {
+  font-size: 18px;
+  font-family: 'Times New Roman', Times, serif;
+
+}

@@ -2,7 +2,7 @@ import './tourniecss/tournament.css'
 
 function TheOpen() {
     return (
-        <div className="">
+        <div className="bubble">
             <h1 className="head">
                 The US Open
             </h1>
