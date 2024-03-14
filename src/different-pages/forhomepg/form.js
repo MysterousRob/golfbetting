@@ -1,4 +1,5 @@
 import { useState } from "react";
+import './footer-css/footer.css'
 
 function MyForm() {
     const [formData, setFormData] = useState({
@@ -37,36 +38,51 @@ function MyForm() {
     };
 
     return (
-        <form onSubmit={handleSubmit}>
-            <label htmlFor="name">Name:</label>
-            <input 
-                type="text"
-                id="name"
-                name="name"
-                value={formData.name}
-                onChange={handleChange}
-                required
+        <div className="contact">
+            <h1>Get In Contact</h1>
+      
+        <form action="mailto:robertjohngasior@gmail.com" method="post" onSubmit={handleSubmit}>
+            <div className="form">
+                <div className="form-field">
+                    <label htmlFor="name">Name:</label>
+                        <input 
+                        type="text"
+                        id="name"
+                        name="name"
+                        value={formData.name}
+                        onChange={handleChange}
+                        required
             />
-            <label htmlFor="email">Email:</label>
-            <input 
-                type="email"
-                id="email"
-                name="email"
-                value={formData.email}
-                onChange={handleChange}
-                required
+                </div>
+                <div className="form-field">
+            <       label htmlFor="email">Email:</label>
+                        <input 
+                        type="email"
+                        id="email"
+                        name="email"
+                        value={formData.email}
+                        onChange={handleChange}
+                        required
             />
-            <label htmlFor="message">Message:</label>
-            <textarea
-                id="message"
-                name="message"
-                value={formData.message}
-                onChange={handleChange}
-                required
-            ></textarea>
-
-            <button type='submit'>Submit</button>
-        </form>
+                </div>
+                <div className="form-field">
+                    <label htmlFor="message">Message:</label>
+                        <textarea
+                        id="message"
+                        name="message"
+                        value={formData.message}
+                        onChange={handleChange}
+                        required
+                        ></textarea>
+            </div>
+            <div className="submit">
+                <button type='submit'>Submit</button>
+            </div>
+            </div>  
+           
+        </form> 
+    </div>
+       
     );
 }
 export default MyForm

@@ -3,19 +3,18 @@ import './css/app.css';
 import './css/index.css';
 import Header from './app-Header';
 import Competiton from './tournaments/tournaments';
-import Section from './forhomepg/footer';
-import MyForm from './forhomepg/form';
+import Footer from './forhomepg/footer'
+
 //function NewPage
 
 //need to fix background and impliment my form to home page 
 
 function Home() {
   return (
-    <div>
+    <div className='body'>
      <Header />
      <Competiton />
-     <MyForm />
-     <Section />
+     <Footer/>
     </div> 
   );
 

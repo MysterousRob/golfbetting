@@ -16,7 +16,7 @@
     align-content: center;
     box-sizing: border-box;
     flex: 1;
-    min-width: 220px;
+    min-width: 240px;
   }
   .bubble * {
     background-color: rgb(0, 0, 0, 0);
