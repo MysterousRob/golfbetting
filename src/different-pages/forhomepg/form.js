@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-function MyForm(){
+function MyForm() {
     const [formData, setFormData] = useState({
         name: '',
         email: '',
@@ -12,26 +12,27 @@ function MyForm(){
         setFormData({...formData, [name]: value});
     };
 
-    const handleSubmit = (event) => {
-        event.PreventDefault();
+    const handleSubmit = async (event) => {
+        event.preventDefault();
 
         try {
             const response = await fetch('/submit-form', {
                 method: 'POST',
                 headers: {
-                    'Content-type': 'application/json'
+                    'Content-Type': 'application/json'
                 },
                 body: JSON.stringify(formData)
             });
 
-            if(response.ok) {
-                console.log('Form Submited Successfully');
+            if (response.ok) {
+                console.log('Form Submitted Successfully');
             } else {
                 console.log('Form Submission Failed');
-            } catch (error) {
-                conaole.log('Network ERROR', error);
             }
+        } catch (error) {
+            console.log('Network ERROR', error);
         }
+
         console.log(formData);
     };
 
@@ -57,14 +58,14 @@ function MyForm(){
             />
             <label htmlFor="message">Message:</label>
             <textarea
-            id="message"
-            name="message"
-            value={formData.message}
-            onChange={handleChange}
-            required
+                id="message"
+                name="message"
+                value={formData.message}
+                onChange={handleChange}
+                required
             ></textarea>
 
-        <button type='submit'>Submit</button>
+            <button type='submit'>Submit</button>
         </form>
     );
 }
