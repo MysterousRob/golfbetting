@@ -1,5 +1,5 @@
 import { useState } from "react";
-import './footer-css/footer.css'
+import './footer-css/form.css'
 
 function MyForm() {
     const [formData, setFormData] = useState({

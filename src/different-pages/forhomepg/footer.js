@@ -10,7 +10,9 @@ function Footer() {
                 </p>
                     Please gamble responsably 👀
                 </div>
-
+        <div>
+            
+        </div>
 
            
         </div>
