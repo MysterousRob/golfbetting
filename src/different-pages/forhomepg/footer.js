@@ -10,9 +10,14 @@ function Footer() {
                 </p>
                     Please gamble responsably 👀
                 </div>
-        <div>
-            
-        </div>
+            <div className="quickie">
+                <div>
+                <h1>Company</h1>
+                <p>About Us</p>
+                <p>News</p>
+                <p>Contact Us</p>
+                </div>
+            </div>
 
            
         </div>
