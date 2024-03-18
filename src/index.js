@@ -5,8 +5,12 @@ import Home from './different-pages/App-home';
 import reportWebVitals from './reportWebVitals';
 import LiveOdds from './different-pages/livegolfodds';
 import Sites from './different-pages/golfbettingsites';
+import Tips from './different-pages/golfbettingtips';
+import Week from './different-pages/Betsoftheweek';
+import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 
-const router = ([
+
+const router = createBrowserRouter([
  {
   path: "/", 
   element: <Home />,
@@ -16,7 +20,7 @@ const router = ([
   element: <Tips />,
  },
  {
-  path: "/Live-Odds", 
+  path: "/Odds", 
   element: <LiveOdds />,
  },
  {
@@ -33,7 +37,7 @@ const router = ([
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Home />
+    <RouterProvider router={router} />
   </React.StrictMode>
 );
 

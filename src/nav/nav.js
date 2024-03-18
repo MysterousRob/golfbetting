@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Link } from 'react-router-dom';
 
 export let navOptions = [
    {
@@ -19,8 +19,8 @@ export let navOptions = [
       title: "Golf Betting Tips",
     },
     {
-      href: "/Live-Odds",
-      title: "Live Odds",
+      href: "/Odds",
+      title: "Live-Odds",
     },
     
 ]
@@ -59,3 +59,15 @@ export const tournaments = [
     title: "",
   },
 ]
+const Nav = () => {
+  return (
+    navOptions.map((nav, i) => (
+      <Link key={i} to={nav.href}>
+        <p>
+            {nav.title}
+        </p>
+      </Link>
+  ))
+  )
+}
+export default Nav;

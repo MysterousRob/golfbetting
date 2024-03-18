@@ -1,8 +1,7 @@
 import React from 'react';
-import './App.css';
-import './index.css';
+import './css/app.css';
+import './css/index.css';
 import Header from './app-Header';
-import PlayerManager from './Liveoods/playermanager';
 import MultiVariableSlider from './Liveoods/sliders';
 //function NewPage
 
@@ -13,7 +12,7 @@ function LiveOdds() {
         <Header />
       </div>
         <div className='slider'>
-          <MultiVariableSlider />
+          {/* <MultiVariableSlider stats={[]}/> */}
         </div>
     </div>
   );
