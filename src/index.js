@@ -3,6 +3,31 @@ import ReactDOM from 'react-dom/client';
 import './different-pages/css/index.css';
 import Home from './different-pages/App-home';
 import reportWebVitals from './reportWebVitals';
+import LiveOdds from './different-pages/livegolfodds';
+import Sites from './different-pages/golfbettingsites';
+
+const router = ([
+ {
+  path: "/", 
+  element: <Home />,
+ },
+ {
+  path: "/Tips", 
+  element: <Tips />,
+ },
+ {
+  path: "/Live-Odds", 
+  element: <LiveOdds />,
+ },
+ {
+  path: "/Week", 
+  element: <Week />,
+ },
+ {
+  path: "/Sites", 
+  element: <Sites />,
+ },
+])
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

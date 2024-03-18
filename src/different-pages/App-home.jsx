@@ -4,7 +4,6 @@ import './css/index.css';
 import Header from './app-Header';
 import Competiton from './tournaments/tournaments';
 import Footer from './forhomepg/footer'
-
 //function NewPage
 
 //need to fix background and impliment my form to home page 

@@ -1,9 +1,7 @@
 import React from 'react';
 import './css/App-header.css';
-import { navOptions } from '../nav/nav';
-import { Link } from 'react-router-dom';
-//function NewPage
 
+//function NewPage
 
 function Header() {
   return (
@@ -14,16 +12,12 @@ function Header() {
         </h1>
       <div className='nav'>
         {/*need to figgure out why my nav buttons arent working as i want them to nav to individual files */}
-        <Link to={navOptions[0].href}>
-          <button>
-           <span>
-            Home
-           </span>
-         </button>
-        </Link>
-
-        <Link to={navOptions[1].href}
         <button>
+          <span>
+            Home
+          </span>
+        </button>
+        <button onClick={() => {window.location.href = './golfbettingtips.js-betingtips'}}>
           <span>
             Betting Tips
           </span>

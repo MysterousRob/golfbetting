@@ -3,23 +3,23 @@ import React from "react";
 
 export let navOptions = [
    {
-      href: "/",
+      href: "different-pages\Apphome.js",
       title: "Home",
     },
     {
-      href: "/Week",
+      href: "different-pages\Betsoftheweek.js",
       title: "Bets of the Week",
     },
     {
-      href: "/Sites",
+      href: "different-pages\golfbettingsites.js",
       title: "Golf Betting Sites",
     },
     {
-      href: "/Tips",
+      href: "different-pages\golfbettingtips.js",
       title: "Golf Betting Tips",
     },
     {
-      href: "/Live-Odds",
+      href: "different-pages\livegolfodds.js",
       title: "Live Odds",
     },
     
