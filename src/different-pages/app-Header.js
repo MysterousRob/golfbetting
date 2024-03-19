@@ -1,6 +1,6 @@
 import React from 'react';
 import './css/App-header.css';
-import Nav from '../nav/nav';
+import Nav from '../nav/nav.js';
 //function NewPage
 
 
@@ -11,9 +11,8 @@ function Header() {
         <h1 className='h1'>
           Golf Betting
         </h1>
-      <div className='nav'>
+      <div>
         {/*need to figgure out why my nav buttons arent working as i want them to nav to individual files */}
-      
         <Nav />
       </div>  
       </header>

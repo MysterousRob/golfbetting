@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from 'react-router-dom';
-
+import '../different-pages/css/App-header.css';
 
 export let navOptions = [
    {
@@ -46,28 +46,20 @@ export const tournaments = [
     href: "different-pages\tournaments\tournaments.js",
     title: "Tournaments",
   },
-  {
-    href: "",
-    title: "",
-  },
-  {
-    href: "",
-    title: "",
-  },
-  {
-    href: "",
-    title: "",
-  },
 ]
+
+
 const Nav = () => {
   return (
-    navOptions.map((nav, i) => (
-      <Link key={i} to={nav.href}>
-        <p>
-            {nav.title}
-        </p>
-      </Link>
-  ))
+    <div className="nav">
+      {navOptions.map((nav, i) => (
+        <Link key={i} to={nav.href}>
+          <p className="test">
+              {nav.title}
+          </p>
+        </Link>
+        ))}
+    </div>
   )
 }
 export default Nav;

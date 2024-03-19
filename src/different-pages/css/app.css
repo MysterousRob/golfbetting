@@ -16,8 +16,7 @@ color: white;
 background-color: black;
 padding: 5px;
 }
-.nav *{
-
+/* .nav * {
 flex-direction: row;
 background: transparent;
 border: none;
@@ -32,7 +31,7 @@ align-items: baseline;
   transition: border 0.5s;
   border-radius: 4px;
   padding: 8px 16px; 
-}
+} */
 .header{
   size: 30px;
 }
@@ -54,10 +53,10 @@ align-items: baseline;
 }
 
 /*for my golf tips page*/
-.tips * {
+.tips {
   margin-top: 6px;
   padding: 20px;
-  background-color: rgb(0, 0, 0, 0.8);
+  background-color: rgb(0, 0, 0, 1);
   font-size: 30px;
   color: white;
 }
@@ -68,11 +67,15 @@ align-items: baseline;
 .p1 {
  color: white;
  font-size: 18px;
+ text-align: left;
+ text-indent: 20px;
 }
 .list-1 {
-
+  background-color: rgb(0, 0, 0, 0.8);
+  margin: 5px;
+  padding: 30px;
 }
 .ordered{
   color: white;
-
+  text-indent: 30px;
 }

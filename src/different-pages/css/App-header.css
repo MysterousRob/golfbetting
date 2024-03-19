@@ -17,20 +17,23 @@ background-color: black;
 padding: 5px;
 
 }
-.nav *{
+
+.nav {
+display: flex;
+padding: 15px;
 align-items: baseline;
-flex-direction: row;
 background: transparent;
 border: none;
-color: white;
-padding: 5px;
+color: rgb(207, 0, 0) !important;
 font-size: 17px;
+gap: 10px;
 }
 .nav * :hover {
   border: 1px solid white;
   transition: border 0.5s;
   border-radius: 4px;
   padding: 8px 16px; 
+
 }
 .header{
   size: 30px;
@@ -51,4 +54,5 @@ font-size: 17px;
 .h1 {
   padding: 6px;
 }
+
 /* for my section page */
