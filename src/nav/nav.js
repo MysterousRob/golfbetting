@@ -48,6 +48,32 @@ export const tournaments = [
   },
 ]
 
+export const footer = [
+{
+  href: "",
+  title: "",
+},  
+{
+  href: ""
+  title: "",,
+
+},
+{
+  href: ""
+  title: "",,
+
+},
+{
+  href: ""
+  title: "",,
+
+},
+{
+  href: ""
+  title: "",,
+
+},
+]
 
 const Nav = () => {
   return (
