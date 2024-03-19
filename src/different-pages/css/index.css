@@ -33,16 +33,15 @@ ul {
   
 }
 li {
-  font-weight: bold;
   font-size: 30px;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  color: rgb(155, 155, 5);
 }
 p {
   font-size: 18px;
   font-family: 'Times New Roman', Times, serif;
   font-weight: bold;
   margin-left: 5px;
+  color: white;
 }
 /*bets of teh week, the live odds, and some of the betting tips*/
 .basic {

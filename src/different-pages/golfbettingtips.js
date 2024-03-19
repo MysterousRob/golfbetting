@@ -1,8 +1,7 @@
 import React from 'react';
 import './css/app.css';
-import './css/index.css';
-import Competiton from './tournaments/tournaments';
 import Header from './app-Header.js';
+import List1 from './golf-betting-tips/List1.js';
 //function NewPage
 
 function Tips() {
@@ -10,8 +9,9 @@ function Tips() {
     <div>
       <Header />
       <div className='tips'>
-
-        <h1>Golf Betting tips</h1>
+        <h1 className='golf-tips'>Some things to consider when betting.</h1>
+        <p className='p1'>There are a few things to consider when betting in golf. You need to understand the different types </p>
+      <List1 />
       </div>
     </div> 
   );

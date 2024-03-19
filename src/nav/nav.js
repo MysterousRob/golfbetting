@@ -12,10 +12,6 @@ export let navOptions = [
       title: "Bets of the Week",
     },
     {
-      href: "/Sites",
-      title: "Golf Betting Sites",
-    },
-    {
       href: "/Tips",
       title: "Golf Betting Tips",
     },
@@ -23,7 +19,10 @@ export let navOptions = [
       href: "/Odds",
       title: "Live-Odds",
     },
-    
+     {
+      href: "/Sites",
+      title: "Golf Betting Sites",
+    },
 ]
 
 export const tournaments = [
