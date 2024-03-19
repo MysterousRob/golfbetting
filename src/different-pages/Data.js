@@ -52,36 +52,36 @@ export const listData2 = [
 
 export const List = () => {
     return (
-      <>
+      <div className='li-1'>
        { listData.map((nav, i) => (
             <li key={i}>
-              <h1>
+              <h1 className='li-head'>
                 {nav.head}
               </h1>
-              <p className="p1">
+              <p className="li-p1">
                   {nav.paragraph}
               </p>
             </li>
         ))
       }
-      </>
+      </div>
     )
 }
 
 export const List2 = () => {
   return (
-      <>
+      <div className='l1-2'>
        {listData2.map((nav, i) => (
            <li key={i}>
-             <h1>
+             <h1 className='li-head'>
                {nav.head}
              </h1>
-             <p className="p1">
+             <p className="li-p1">
                  {nav.paragraph}
              </p>
            </li>
        ))
            }
-    </>
+    </div>
   )
 }
