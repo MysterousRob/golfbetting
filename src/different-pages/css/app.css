@@ -94,3 +94,34 @@ align-items: baseline;
 .li-p1 {
   text-indent: 30px;
 }
+
+/*golf betting sites css*/
+.sites {
+  margin-top: 6px;
+  padding: 40px;
+  background-color: rgb(0, 0, 0, 1);
+  font-size: 30px;
+  color: white;
+}
+.box {
+  margin: 10px;
+  padding: ;
+  background-color: rgb(0, 0, 0, 0.8);
+  border: 5px solid blue;
+  height: 265px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+.img {
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-bottom: 0px;
+  margin-right: 615px;
+  padding: 125px;
+  border: 3px solid blue;
+  background-color: #021434;
+  
+}
+/* .header{
+  size: 30px;
+} */

@@ -76,10 +76,10 @@ text-align: cente
   margin-left: 10px;
   margin-top: 5px;
 }
-img {
+/* img {
   width: 10%;
   display: inline-block;
-}
+} */
 #media{
   display: inline-block;
   text-align: center;

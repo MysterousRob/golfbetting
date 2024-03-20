@@ -48,6 +48,9 @@ export const tournaments = [
   },
 ]
 
+function quickLinks () {
+  
+}
 const Nav = () => {
   return (
     <div className="nav">
@@ -65,3 +68,16 @@ export default Nav;
 
 
 // quickLink2 component
+export const quickLink2 = () => {
+  return (
+    <>
+      {quickLinks.map((nav, i) => (
+        <Link key={i} to={nav.href}>
+          <p>
+            {nav.title}
+          </p>
+        </Link>
+      ))}
+    </>
+  );
+};
