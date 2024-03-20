@@ -1,6 +1,6 @@
 import React from 'react';
 import './css/App-header.css';
-import Nav from '../nav/nav.js';
+import Nav from '../different-pages/data/nav.js';
 //function NewPage
 
 

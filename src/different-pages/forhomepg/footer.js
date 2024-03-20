@@ -1,5 +1,6 @@
 import React from "react";
 import './footer-css/footer.css'
+import { quickLink2 } from "../data/nav";
 
 function Footer() {
     return(
@@ -10,12 +11,26 @@ function Footer() {
                 </p>
                     Please gamble responsably 👀
                 </div>
-            <div className="quickie">
-                <div>
-                <h1>Company</h1>
-                <p>About Us</p>
-                <p>News</p>
-                <p>Contact Us</p>
+            <div className="quick-link">
+                <div className="company">
+                    <h1>
+                        Company
+                    </h1>
+                    <p>
+                        About Us
+                    </p>
+                    <p>
+                        News
+                    </p>
+                    <p>
+                        Contact Us
+                    </p>
+                </div>
+                <div className="quick-link">
+                    <h1>
+                        Quick Links
+                    </h1>
+                   
                 </div>
             </div>
 
