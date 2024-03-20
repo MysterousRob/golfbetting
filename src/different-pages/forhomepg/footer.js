@@ -30,7 +30,7 @@ function Footer() {
                     <h1>
                         Quick Links
                     </h1>
-                   
+                   <quickLink2 />
                 </div>
             </div>
 

@@ -4,7 +4,7 @@ import './css/index.css';
 import Competiton from './tournaments/tournaments';
 import Header from './app-Header';
 //function NewPage
-
+// follow same styling as cricket betting with the coloring being the same as the main sites
 function Sites() {
   return (
     <div>
