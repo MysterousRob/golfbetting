@@ -47,47 +47,8 @@ export const tournaments = [
     title: "Tournaments",
   },
 ]
-//const footer = () -> {
-export const company = [ 
-{
-  href: "src\different-pages\forhomepg\AboutUs.js",
-  title: "About Us",
-},
-{
-  href: "",
-  title: "News",
-},
-{
-  href: "",
-  title: "",
 
-},
-]
-const quickLinks = [
-  {
-    href: "src\different-pages\App-home.jsx",
-    title: "Home",
-  },
-  {
-    href: "src\different-pages\Betsoftheweek.js",
-    title: "Bets of the Week",
-  },
-  {
-    href: "src\different-pages\golfbettingtips.js",
-    title: "Golf Betting Tips",
-  },
-  {
-    href: "src\different-pages\livegolfodds.js",
-    title: "Live-Odds",
-  },
-  {
-    href: "src\different-pages\golfbettingsites.js",
-    title: "Golf Betting Sites",
-  },
-];
-
-// Nav component
-const Nav = ({ navOptions }) => {
+const Nav = () => {
   return (
     <div className="nav">
       {navOptions.map((nav, i) => (
@@ -104,16 +65,3 @@ export default Nav;
 
 
 // quickLink2 component
-export const quickLink2 = () => {
-  return (
-    <>
-      {quickLinks.map((nav, i) => (
-        <Link key={i} to={nav.href}>
-          <p>
-            {nav.title}
-          </p>
-        </Link>
-      ))}
-    </>
-  );
-};

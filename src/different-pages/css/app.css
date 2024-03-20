@@ -81,7 +81,7 @@ align-items: baseline;
   text-align: center;
 }
 .li-1 {
-padding-top: 20px; 
+ padding: 10px;  
  margin: 30px;
 }
 .li-2 {
@@ -90,9 +90,7 @@ padding-top: 20px;
 }
 .li-head {
   text-indent: 0px;
-  padding-top: 20px;
 }
 .li-p1 {
   text-indent: 30px;
-  padding-bottom: 30px;
 }
