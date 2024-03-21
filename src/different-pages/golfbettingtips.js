@@ -2,6 +2,7 @@ import React from 'react';
 import './css/app.css';
 import Header from './app-Header.js';
 import List1 from './golf-betting-tips/List1.js';
+import Footer from './forhomepg/footer.js';
 //function NewPage
 
 function Tips() {
@@ -23,6 +24,7 @@ function Tips() {
         </p>
       <List1 />
       </div>
+      <Footer />
     </div> 
   );
 }

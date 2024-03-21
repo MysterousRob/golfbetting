@@ -1,6 +1,7 @@
 import React from 'react';
 import './css/app.css';
 import './css/index.css';
+import Footer from './forhomepg/footer';
 
 import Header from './app-Header';
 //function NewPage
@@ -13,7 +14,7 @@ function Sites() {
         <h1>Different Golf Betting Websites</h1>
         <div className='box'> 
         <div>
-         <h1 className=''>
+         <h1 className='box-h1'>
           % bonusses to your $
           </h1>
          </div>
@@ -21,6 +22,7 @@ function Sites() {
             
         </div>
       </div>
+      <Footer />
     </div> 
   );
 }
