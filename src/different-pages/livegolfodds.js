@@ -14,7 +14,7 @@ function LiveOdds() {
         <Header />
       </div>
         <div className='slider'>
-          <MultiVariableSlider />
+          <MultiVariableSlider stats={[]}/>
         </div>
       <Footer />
     </div>
