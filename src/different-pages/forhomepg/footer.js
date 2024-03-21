@@ -15,45 +15,46 @@ function Footer() {
             </div> 
 <footer className="foot">
   <nav className="nav-footer">
-    <h6 className="footer-title">Services</h6> 
-    <a className="link link-hover">Branding</a>
-    <a className="link link-hover">Design</a>
-    <a className="link link-hover">Marketing</a>
-    <a className="link link-hover">Advertisement</a>
+    <h6 className="footer-title">Golf Predictions</h6> 
+    <a className="link link-hover">News</a>
+    <a className="link link-hover">Live Scores</a>
+    <a className="link link-hover">Life Time Scores</a>
+    <a className="link link-hover">#</a>
   </nav> 
   <nav className="nav-footer">
-    <h6 className="footer-title">Company</h6> 
-    <a className="link link-hover">About us</a>
-    <a className="link link-hover">Contact</a>
-    <a className="link link-hover">Jobs</a>
-    <a className="link link-hover">Press kit</a>
+    <h6 className="footer-title">Quick Links</h6> 
+    <a className="link link-hover">Home</a>
+    <a className="link link-hover">Bets of the Week</a>
+    <a className="link link-hover">Golf Betting Tips</a>
+    <a className="link link-hover">Live Odds</a>
   </nav> 
   <nav className="nav-footer">
-    <h6 className="footer-title">Legal</h6> 
-    <a className="link link-hover">Terms of use</a>
-    <a className="link link-hover">Privacy policy</a>
-    <a className="link link-hover">Cookie policy</a>
+    <h6 className="footer-title">Tournaments</h6> 
+    <a className="link link-hover">the Masters</a>
+    <a className="link link-hover">The Open Championship</a>
+    <a className="link link-hover">USA PGA Championship</a>
+    <a className="link link-hover">The US Open</a>
   </nav> 
   <nav className="nav-footer">
-    <h6 className="footer-title">Social</h6> 
-    <a className="link link-hover">Twitter</a>
-    <a className="link link-hover">Instagram</a>
-    <a className="link link-hover">Facebook</a>
-    <a className="link link-hover">Github</a>
+    <h6 className="footer-title">Betting Offers</h6> 
+    <a className="link link-hover">Betting Sites</a>
+    <a className="link link-hover">Betting Promotions</a>
+    <a className="link link-hover">#</a>
+    <a className="link link-hover">#</a>
   </nav> 
   <nav className="nav-footer">
-    <h6 className="footer-title">Explore</h6> 
-    <a className="link link-hover">Features</a>
-    <a className="link link-hover">Enterprise</a>
-    <a className="link link-hover">Security</a>
-    <a className="link link-hover">Pricing</a>
+    <h6 className="footer-title">Contact Us</h6> 
+    <a className="link link-hover">About Us</a>
+    <a className="link link-hover">Form</a>
+    <a className="link link-hover">#</a>
+    <a className="link link-hover">#</a>
   </nav> 
   <nav className="nav-footer">
-    <h6 className="footer-title">Apps</h6> 
-    <a className="link link-hover">Mac</a>
-    <a className="link link-hover">Windows</a>
-    <a className="link link-hover">iPhone</a>
-    <a className="link link-hover">Android</a>
+    <h6 className="footer-title">to be filled in</h6> 
+    <a className="link link-hover">#</a>
+    <a className="link link-hover">#</a>
+    <a className="link link-hover">#</a>
+    <a className="link link-hover">#</a>
   </nav>
 </footer>
         </div>
