@@ -30,7 +30,7 @@ function Footer() {
   </nav> 
   <nav className="nav-footer">
     <h6 className="footer-title">Tournaments</h6> 
-    <a className="link link-hover">the Masters</a>
+    <a className="link link-hover">The Masters</a>
     <a className="link link-hover">The Open Championship</a>
     <a className="link link-hover">USA PGA Championship</a>
     <a className="link link-hover">The US Open</a>
