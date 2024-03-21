@@ -1,15 +1,15 @@
 {
-    "data": {
-        "id": 43,
-        "attributes": {
-            "Tournament_Name": "RSM Classic 2023",
-            "Tournament_Info": "Sea Island Resort",
-            "Tournament_Start": "2023-11-16T00:00:00.000Z",
-            "Tournament_End": "2023-11-19T00:00:00.000Z",
-            "Tour": "PGA Tour",
-            "Live": false,
-            "Player_List": {
-                "data": [
+    "data"; {
+        "id"; 43,
+        "attributes"; {
+            "Tournament_Name"; "RSM Classic 2023",
+            "Tournament_Info"; "Sea Island Resort",
+            "Tournament_Start"; "2023-11-16T00:00:00.000Z",
+            "Tournament_End"; "2023-11-19T00:00:00.000Z",
+            "Tour"; "PGA Tour",
+            "Live"; false,
+            "Player_List"; {
+                "data"; [
                     {
                         "Bet365": "200/1",
                         "Player": "Aaron Baddeley",
@@ -965,13 +965,13 @@
                         "DraftKings": "TBC"
                     }
                 ],
-                "total": 159
-            },
-            "slug": "rsm-classic-2023",
-            "createdAt": "2023-11-13T09:58:52.847Z",
-            "updatedAt": "2024-01-01T11:05:55.845Z",
-            "publishedAt": "2023-11-13T09:58:54.395Z",
-            "Imported_Variables": [
+                "total"; 159
+            }
+            "slug"; "rsm-classic-2023",
+            "createdAt"; "2023-11-13T09:58:52.847Z",
+            "updatedAt"; "2024-01-01T11:05:55.845Z",
+            "publishedAt"; "2023-11-13T09:58:54.395Z",
+            "Imported_Variables"; [
                 {
                     "id": 1393,
                     "Variable": {
@@ -30509,30 +30509,30 @@
                     }
                 }
             ],
-            "Tournament_Icon": {
-                "data": {
-                    "id": 41,
-                    "attributes": {
-                        "name": "rsm-classic-150x36.webp",
-                        "alternativeText": null,
-                        "caption": null,
-                        "width": 150,
-                        "height": 36,
-                        "formats": null,
-                        "hash": "rsm_classic_150x36_422efe782b",
-                        "ext": ".webp",
-                        "mime": "image/webp",
-                        "size": 0.72,
-                        "url": "/uploads/rsm_classic_150x36_422efe782b.webp",
-                        "previewUrl": null,
-                        "provider": "local",
-                        "provider_metadata": null,
-                        "createdAt": "2023-11-13T09:56:51.506Z",
-                        "updatedAt": "2023-11-13T09:56:51.506Z"
+            "Tournament_Icon"; {
+                "data"; {
+                    "id"; 41,
+                    "attributes"; {
+                        "name"; "rsm-classic-150x36.webp",
+                        "alternativeText"; null,
+                        "caption"; null,
+                        "width"; 150,
+                        "height"; 36,
+                        "formats"; null,
+                        "hash"; "rsm_classic_150x36_422efe782b",
+                        "ext"; ".webp",
+                        "mime"; "image/webp",
+                        "size"; 0.72,
+                        "url"; "/uploads/rsm_classic_150x36_422efe782b.webp",
+                        "previewUrl"; null,
+                        "provider"; "local",
+                        "provider_metadata"; null,
+                        "createdAt"; "2023-11-13T09:56:51.506Z",
+                        "updatedAt"; "2023-11-13T09:56:51.506Z"
                     }
                 }
             }
         }
-    },
-    "meta": {}
+    }
+    "meta"; {}
 }
