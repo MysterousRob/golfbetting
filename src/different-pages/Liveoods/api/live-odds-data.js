@@ -5,7 +5,7 @@ import '../../forhomepg/footer-css/footer.css';
 //making nested array (FOLLOW STRUCTURE, DONT DOUBT IT, JUST DO IT)
 export const foot = [
     {
-        title: "Golf Predictions",
+        title: "Golf_Predictions",
         links:  [
             {
                 title: "News",
@@ -30,19 +30,19 @@ export const foot = [
         links:  [
             {
                 title: "Home",
-                to: "src\different-pages\App-home.jsx",
+                to: "src/different-pages/App-home.jsx",
             },
             {
                 title: "Golf Betting Tips",
-                to: "src\different-pages\golfbettingtips.js",
+                to: "src/different-pages/golfbettingtips.js",
             },
             {
                 title: "Live Golf Odds",
-                to: "src\different-pages\livegolfodds.js",
+                to: "src/different-pages/livegolfodds.js",
             },
             {
                 title: "Golf Bets of the Week",
-                to: "src\different-pages\Betsoftheweek.js",
+                to: "src/different-pages/Betsoftheweek.js",
             },
             {
                 title: "",
@@ -59,19 +59,19 @@ export const foot = [
         links:  [
             {
                 title: "The Masters",
-                to: "src\different-pages\tournaments\themaster.js",
+                to: "src/different-pages/tournaments/themaster.js",
             },
             {
                 title: "The Open Championship",
-                to: "src\different-pages\tournaments\openchamp.js",
+                to: "src/different-pages/tournaments/openchamp.js",
             },
             {
                 title: "US PGA Championship",
-                to: "src\different-pages\tournaments\uspga.js",
+                to: "src/different-pages/tournaments/uspga.js",
             },
             {
                 title: "The US Open",
-                to: "src\different-pages\tournaments\theopen.js",
+                to: "src/different-pages/tournaments/theopen.js",
             },
             {
                 title: "",
@@ -84,7 +84,7 @@ export const foot = [
         links:  [
             {
                 title: "Betting Sites",
-                to: "src\different-pages\golfbettingsites.js",
+                to: "src/different-pages/golfbettingsites.js",
             },
             {
                 title: "Betting Promotions",
@@ -97,7 +97,7 @@ export const foot = [
         links:  [
             {
                 title: "About Us",
-                to: "src\different-pages\forhomepg\AboutUs.js",
+                to: "src/different-pages/forhomepg/AboutUs.js",
             },
             {
                 title: "Form",
@@ -106,3 +106,22 @@ export const foot = [
         ],
     },
 ]
+
+export const Foot2 = () => {
+    return (
+    <div>
+        {foot.map((footItems, i) =>(
+            <div key={i} className="nav-footer">
+                <h2>{footItems.title}</h2>
+                    {footItems.links.map((nav, i) => (
+                        <Link key={i} to={nav.links.to}>
+                            <p className="">
+                                {nav.title}
+                            </p>
+                        </Link>
+             ))}
+            </div>
+        ))}
+    </div>
+      );
+}

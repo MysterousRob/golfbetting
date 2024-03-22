@@ -1,6 +1,6 @@
 import React from "react";
 import './footer-css/footer.css'
-import { quickLink2 } from "../data/nav";
+import { Foot2 } from "../Liveoods/api/live-odds-data";
 
 function Footer() {
     return(
@@ -14,7 +14,8 @@ function Footer() {
                 </p>
             </div> 
 <footer className="foot">
-  <nav className="nav-footer">
+        <Foot2 />
+  {/* <nav className="nav-footer">
     <h6 className="footer-title">Golf Predictions</h6> 
     <a className="link link-hover">News</a>
     <a className="link link-hover">Live Scores</a>
@@ -55,7 +56,7 @@ function Footer() {
     <a className="link link-hover">#</a>
     <a className="link link-hover">#</a>
     <a className="link link-hover">#</a>
-  </nav>
+  </nav> */}
 </footer>
         </div>
     );
