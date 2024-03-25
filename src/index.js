@@ -4,7 +4,7 @@ import './different-pages/css/index.css';
 import Home from './different-pages/App-home';
 import reportWebVitals from './reportWebVitals';
 import LiveOdds from './different-pages/livegolfodds';
-import Sites from './different-pages/golfbettingsites';
+import Sites from './golf betting sites/golfbettingsites';
 import Tips from './different-pages/golfbettingtips';
 import Week from './different-pages/Betsoftheweek';
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';

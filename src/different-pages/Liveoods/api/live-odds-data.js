@@ -109,7 +109,7 @@ export const foot = [
 
 export const Foot2 = () => {
     return (
-    <div>
+    <>
         {foot.map((footItems, i) =>(
             <div key={i} className="nav-footer">
                 <h2>{footItems.title}</h2>
@@ -122,7 +122,7 @@ export const Foot2 = () => {
              ))}
             </div>
         ))}
-    </div>
+    </>
       );
 }
 //make this into routes for the footerside of the webpage

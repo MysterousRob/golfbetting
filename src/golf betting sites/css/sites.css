@@ -1,0 +1,19 @@
+.box {
+    /* Your box styles */
+  }
+  
+  .text-section {
+    /* Text section styles */
+  }
+  
+  .star-rating {
+    /* Star rating styles */
+  }
+  
+  .menu {
+    display: none; /* Hide the menu by default */
+  }
+  
+  .menu.open {
+    display: block; /* Show the menu when it's open */
+  }
