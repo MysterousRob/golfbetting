@@ -1,16 +1,104 @@
-// import React from "react";
-// import "./css/sites.css";
+import React from "react";
+import "./css/sites.css";
 
-// export const siteData [
-//     {
-//        name-site: "name goes here", 
-//        info: [
-//         bonus-data: "",
-//         bonus-code: "",
-//         Boosted-odds: "",
-//         Live-streaming: "",
-//         In-play-betting: "",
-//         Terns&Condidtions: "",
-//        ]
-//     }
-// ]
+
+
+export const siteData = [
+    {
+       nameSite: "name goes here", 
+       info: {
+        bonusData: "",
+        bonusCode: "",
+        boostedOdds: "",
+        liveStreaming: "",
+        inPlayBetting: "",
+        termsCondidtions: "",
+       },
+       link: {
+        claimLink: "",
+        visitLink: "",
+        reviewLink: "",
+        },
+    },
+    {
+       nameSite: "name goes here", 
+       info: {
+        bonusData: "",
+        bonusCode: "",
+        boostedOdds: "",
+        liveStreaming: "",
+        inPlayBetting: "",
+        termsCondidtions: "",
+       },
+       link: {
+        claimLink: "",
+        visitLink: "",
+        reviewLink: "",
+        },
+    },
+    {
+       nameSite: "name goes here", 
+       info: {
+        bonusData: "",
+        bonusCode: "",
+        boostedOdds: "",
+        liveStreaming: "",
+        inPlayBetting: "",
+        termsCondidtions: "",
+       },
+       link: {
+        claimLink: "",
+        visitLink: "",
+        reviewLink: "",
+        },
+    },
+    {
+       nameSite: "name goes here", 
+       info: {
+        bonusData: "",
+        bonusCode: "",
+        boostedOdds: "",
+        liveStreaming: "",
+        inPlayBetting: "",
+        termsCondidtions: "",
+       },
+       link: {
+        claimLink: "",
+        visitLink: "",
+        reviewLink: "",
+        },
+    },
+    {
+       nameSite: "name goes here", 
+       info: {
+        bonusData: "",
+        bonusCode: "",
+        boostedOdds: "",
+        liveStreaming: "",
+        inPlayBetting: "",
+        termsCondidtions: "",
+       },
+       link: {
+        claimLink: "",
+        visitLink: "",
+        reviewLink: "",
+        },
+    },
+    {
+       nameSite: "name goes here", 
+       info: {
+        bonusData: "",
+        bonusCode: "",
+        boostedOdds: "",
+        liveStreaming: "",
+        inPlayBetting: "",
+        termsCondidtions: "",
+       },
+       link: {
+        claimLink: "",
+        visitLink: "",
+        reviewLink: "",
+        },
+    },
+    
+]
