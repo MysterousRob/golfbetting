@@ -114,7 +114,7 @@ export const Foot2 = () => {
             <div key={i} className="nav-footer">
                 <h2>{footItems.title}</h2>
                     {footItems.links.map((nav, i) => (
-                        <Link key={i} to={nav.links.to}>
+                        <Link key={i} to={nav.to}>
                             <p className="">
                                 {nav.title}
                             </p>
@@ -125,3 +125,4 @@ export const Foot2 = () => {
     </div>
       );
 }
+//make this into routes for the footerside of the webpage

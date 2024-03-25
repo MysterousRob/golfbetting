@@ -1,12 +1,9 @@
-import './tourniecss/tournament.css';
-import Header from '../app-Header';
-import Footer from '../forhomepg/footer';
+import '../tourniecss/tournament.css';
 
 //create each 
-function TheMasters() {
+function TheMasters2() {
     return (
         <div>
-            <Header />
                 <div className='bubble'>
                     <h1 className='head'>
                         The  <br /> Masters
@@ -16,9 +13,8 @@ function TheMasters() {
                         The Masters Tournament at Augusta National Golf Club is a prestigious event in golf, showcasing top players and iconic moments, while also embracing the excitement of betting for fans worldwide.
                     </p>
                 </div>
-            <Footer />
         </div>
     )
 };
 
-export default TheMasters;
+export default TheMasters2;
