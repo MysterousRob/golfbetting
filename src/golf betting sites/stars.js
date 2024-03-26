@@ -9,7 +9,7 @@ const StarRating = ({totalStars, initalRating, onChange}) => {
         setRating(initalRating);
       }
     }, [initalRating]);
-    
+
     const handleClick = (starIndex) => {
         setRating(starIndex + 1);
         if(onChange){
@@ -18,7 +18,7 @@ const StarRating = ({totalStars, initalRating, onChange}) => {
 
     };
     return (
-        <div className="star-rating">
+        <div className="star_rating">
             {[...Array(totalStars)].map((_, index) => (
         <span
           key={index}

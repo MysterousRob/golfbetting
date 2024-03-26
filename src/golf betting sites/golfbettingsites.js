@@ -29,7 +29,7 @@ const BoxComponent = () => {
         ))} */}
       </div>
 
-      <div className="star-rating">
+      <div className="star_rating">
         <StarRating />
       </div>
 

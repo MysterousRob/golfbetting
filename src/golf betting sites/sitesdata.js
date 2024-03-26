@@ -5,7 +5,7 @@ import "./css/sites.css";
 
 export const siteData = [
     {
-       nameSite: "name goes here", 
+       nameSite: "betway", 
        info: {
         bonusData: "",
         bonusCode: "",
@@ -21,7 +21,7 @@ export const siteData = [
         },
     },
     {
-       nameSite: "name goes here", 
+       nameSite: "bwin", 
        info: {
         bonusData: "",
         bonusCode: "",
@@ -37,7 +37,7 @@ export const siteData = [
         },
     },
     {
-       nameSite: "name goes here", 
+       nameSite: "bet365", 
        info: {
         bonusData: "",
         bonusCode: "",
@@ -53,7 +53,7 @@ export const siteData = [
         },
     },
     {
-       nameSite: "name goes here", 
+       nameSite: "William Hill", 
        info: {
         bonusData: "",
         bonusCode: "",
@@ -69,7 +69,7 @@ export const siteData = [
         },
     },
     {
-       nameSite: "name goes here", 
+       nameSite: "888 sport", 
        info: {
         bonusData: "",
         bonusCode: "",
