@@ -18,7 +18,7 @@ const App = () => {
         <div>
             <StarRating 
                 totalStars={5}
-                initalRating={rating}
+                initalRating={3}
                 onChange={handleRatingChange}
                 star={<CustomStar />}
             />

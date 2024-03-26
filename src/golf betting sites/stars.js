@@ -1,36 +1,38 @@
-import React, {useState} from "react";
+import React, {useState, useEffect} from "react";
 import './css/sites.css';
+import Star from "./star";
+import App from "./starsapp"
 
-const StarRating = ({totalStars, initalRating, onChange}) => {
-    const [rating, setRating] = useState(initialRating || 0);
+const StarRating = ({totalStars, initialRating, onChange,}) => {
+  const [rating, setRating] = useState(initialRating || 0);
 
-    const useEffect(() => {
-      if (initialRating) {
-        setRating(initalRating);
+  // useEffect (() => {
+  //   if (initialRating) {
+  //     setRating(initialRating);
+  //   }
+  // }, [initialRating]);
+
+  const handleClick = (starIndex) => {
+      setRating(starIndex + 1);
+      if(onChange){
+          onChange(starIndex + 1);
       }
-    }, [initalRating]);
-
-    const handleClick = (starIndex) => {
-        setRating(starIndex + 1);
-        if(onChange){
-            onChange(starIndex + 1);
-        }
-
-    };
-    return (
-        <div className="star_rating">
-            {[...Array(totalStars)].map((_, index) => (
-        <span
-          key={index}
-          className={index < rating ? 'star filled' : 'star'}
-          onClick={() => handleClick(index)}
-        >
-            
-          &#9733;
-        </span>
-      ))}
-        </div>
-    )
-}
+  };
+  return (
+    <div className="star_rating">
+        {[...Array(totalStars)].map((_, index) => (
+    <span
+      key={index}
+      className={index < rating ? 'star filled' : 'star'}
+      onClick={() => handleClick(index)}
+    >
+        
+      &#9733;
+    </span>
+  ))}
+    </div>
+)
+};
+    
 
 export default StarRating;

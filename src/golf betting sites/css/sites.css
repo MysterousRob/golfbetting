@@ -8,6 +8,9 @@
   
   .star-rating {
     /* Star rating styles */
+    margin: 10px;
+    padding: 10px;
+    display: block;
   }
   
   .menu {
