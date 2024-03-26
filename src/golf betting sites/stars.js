@@ -4,13 +4,19 @@ import './css/sites.css';
 const StarRating = ({totalStars, initalRating, onChange}) => {
     const [rating, setRating] = useState(initialRating || 0);
 
+    const useEffect(() => {
+      if (initialRating) {
+        setRating(initalRating);
+      }
+    }, [initalRating]);
+    
     const handleClick = (starIndex) => {
         setRating(starIndex + 1);
         if(onChange){
             onChange(starIndex + 1);
         }
-    };
 
+    };
     return (
         <div className="star-rating">
             {[...Array(totalStars)].map((_, index) => (
