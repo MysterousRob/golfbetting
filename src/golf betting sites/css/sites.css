@@ -1,7 +1,34 @@
+.sites {
+  background-color: rgb(0, 0, 0, 1);
+}
+.header h1{
+  text-align: center;
+}
+
 .box {
     /* Your box styles */
+    display: flex;
+    display: grid;
+    
   }
-  
+  .image_container {
+    aspect-ratio: 1/1;
+    max-width: 255px;
+    position: relative;
+    padding: 10px;
+    background-color: rgb(0,20,60);
+
+  }
+.image_container img{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    object-position: center center;
+    left: 0;
+    top: 0;
+    padding: 10px;
+}
   .text-section {
     /* Text section styles */
   }
@@ -10,7 +37,7 @@
     /* Star rating styles */
     margin: 10px;
     padding: 10px;
-    display: block;
+    
   }
   
   .menu {

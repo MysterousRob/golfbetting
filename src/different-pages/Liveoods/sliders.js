@@ -4,42 +4,42 @@ import 'rc-slider/assets/index.css';
 import '../Liveoods/api/live-odds-data';
 
 
-const MultiVariableSlider = ({ stats, onChange }) => {
-  const [currentStats, setCurrentStats] = useState(stats);
-console.log(stats);
-  const handleSliderChange = (value, statIndex) => {
-    const updatedStats = [...currentStats];
-    updatedStats[statIndex] = value;
-    setCurrentStats(updatedStats);
-    onChange(updatedStats); // Call the onChange prop to update parent component's state
-  };
+// const MultiVariableSlider = ({ stats, onChange }) => {
+//   const [currentStats, setCurrentStats] = useState(stats);
+// console.log(stats);
+//   const handleSliderChange = (value, statIndex) => {
+//     const updatedStats = [...currentStats];
+//     updatedStats[statIndex] = value;
+//     setCurrentStats(updatedStats);
+//     onChange(updatedStats); 
+//   };
   
-  return (
-    <div>
-      {/* {data.attributes.Player_list.data.map((stat, index) => (
-        <div key={index}>
-          <label>{`Stat ${index + 1}`}</label>
-          <Slider
-            min={0}
-            max={100}
-            value={stat}
-            onChange={(value) => handleSliderChange(value, index)}
-          />
-        </div>
-      ))}
-      {data.attributes.Imported_Variables.map((stat, index) => (
-        <div key={index}>
-          <label>{`Stat ${index + 1}`}</label>
-          <Slider
-            min={0}
-            max={100}
-            value={stat}
-            onChange={(value) => handleSliderChange(value, index)}
-          />
-        </div>
-      ))} */}
-    </div>
-  );
-};
+//   return (
+//     <div>
+//       {data.attributes.Player_list.data.map((stat, index) => (
+//         <div key={index}>
+//           <label>{`Stat ${index + 1}`}</label>
+//           <Slider
+//             min={0}
+//             max={100}
+//             value={stat}
+//             onChange={(value) => handleSliderChange(value, index)}
+//           />
+//         </div>
+//       ))}
+//       {data.attributes.Imported_Variables.map((stat, index) => (
+//         <div key={index}>
+//           <label>{`Stat ${index + 1}`}</label>
+//           <Slider
+//             min={0}
+//             max={100}
+//             value={stat}
+//             onChange={(value) => handleSliderChange(value, index)}
+//           />
+//         </div>
+//       ))}
+//     </div>
+//   );
+// };
 
-export default MultiVariableSlider;
+// export default MultiVariableSlider;

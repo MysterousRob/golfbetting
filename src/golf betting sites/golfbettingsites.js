@@ -4,6 +4,7 @@ import Footer from '../different-pages/forhomepg/footer';
 import Header from '../different-pages/app-Header';
 import {useState} from 'react';
 import StarRating from './stars';
+import williamHill from '../../src/photos/williamHill.png';
 
 // follow same styling as cricket betting with the coloring being the same as the main sites
 const BoxComponent = () => {
@@ -16,32 +17,39 @@ const BoxComponent = () => {
   };
 
   return (
-    <div>
+    <div className='sites'>
       <Header />
-      <div className="box">
-      <img src="image_url_here" alt="Image" />
+      <div className='header'>
+        <h1>
+          Different Golf Betting Websites
+        </h1>
+        <div className="box">
+        <div className='image_container'>
+          <img src={williamHill} alt="William Hill" />
+        </div>
 
-    
-      <div className="text-section">
-        {/* 10 pieces of text
-        {[...Array(10)].map((_, index) => (
-          <p key={index}>Text {index + 1}</p>
-        ))} */}
+        <div className="text-section">
+          {/* 10 pieces of text
+          {[...Array(10)].map((_, index) => (
+            <p key={index}>Text {index + 1}</p>
+          ))} */}
+        </div>
+        <div className="star_rating">
+          <StarRating />
+        </div>
+        <div className={`menu ${isMenuOpen ? 'open' : ''}`}>
+          {/* map goes here */}
+        </div>
+        {/* Button to toggle menu */}
+        <div>
+          <button onClick={toggleMenu}>
+            Toggle Menu
+          </button>
+        </div>
+        
+            </div>
       </div>
-
-      <div className="star_rating">
-        <StarRating />
-      </div>
-
-      {/* Expandable Menu
-      <div className={`menu ${isMenuOpen ? 'open' : ''}`}>
-        <p>Your expandable menu content goes here *</p>
-      </div>*/}
-
-      {/* Button to toggle menu */}
-      <button onClick={toggleMenu}>Toggle Menu</button>
-      <Footer />
-    </div> 
+    <Footer />
     </div>
   );
 }
