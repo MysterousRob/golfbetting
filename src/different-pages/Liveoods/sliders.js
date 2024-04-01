@@ -8,19 +8,29 @@ import { FaArrowCircleUp } from "react-icons/fa";
 
 
 function MultiVariableSlider() {
-    const [sliderData, setSliderData] = useState({  });
     const [dropdownOpen, setDropdownOpen] = useState(false);
+    const [sliderValue, setSliderValue] = useState([0,100]);
 
   const toggleDropdown = () => {
     setDropdownOpen(!dropdownOpen);
   };
-    return (
-      <div className='slider'>
+  const handleSliderChange = (newValue) => {
+    setSliderValue(newValue);
+  };
+   return (
+    <div className='slider'>
       <div tabIndex={0} className="dropdown dropdown-bottom">
         <div role="button" className="btn m-1" onClick={toggleDropdown}>
           <p>Event Form</p>
-          <Slider2 sliderData={sliderData}/>
-          {dropdownOpen ? <FaArrowCircleUp onClick={toggleDropdown} /> : <FaArrowCircleDown onClick={toggleDropdown} />}
+          <Slider2
+            value={sliderValue} 
+            onChange={handleSliderChange} 
+          />
+          {dropdownOpen ? (
+            <FaArrowCircleUp onClick={toggleDropdown} />
+          ) : (
+            <FaArrowCircleDown onClick={toggleDropdown} />
+          )}
         </div>
         <ul className={`dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52 ${dropdownOpen ? 'show' : ''}`}>
           <li>
@@ -29,7 +39,7 @@ function MultiVariableSlider() {
         </ul>
       </div>
     </div>
-    );
-  }
+  );
+}
   
 export default MultiVariableSlider;

@@ -1,4 +1,4 @@
-.dropdown dropdown-bottom *{
+.dropdown dropdown-bottom {
     color: black;
 }
 .dropdown-content {
@@ -6,10 +6,9 @@
     width: 13rem; 
     background-color: rgb(0, 0, 0, );
 }
+
+
+/*my slider itsself*/
 .slider *{
     color: black;
-}
-/*my slider itsself*/
-.slider {
-
 }
