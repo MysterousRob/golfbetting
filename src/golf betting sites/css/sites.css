@@ -6,11 +6,11 @@
 }
 
 .box {
-    /* Your box styles */
     display: flex;
-    display: grid;
-    
+    /* justify-content: space-around; */
+    flex-direction: row;
   }
+
   .image_container {
     aspect-ratio: 1/1;
     max-width: 255px;
@@ -37,13 +37,17 @@
     /* Star rating styles */
     margin: 10px;
     padding: 10px;
-    
+    display: flex;
   }
   
   .menu {
-    display: none; /* Hide the menu by default */
+     /* Hide the menu by default */
   }
-  
-  .menu.open {
-    display: block; /* Show the menu when it's open */
+
+  .button {
+    align-self: center;
+    
+  }
+  .right-side{
+    align-items: flex-end;
   }

@@ -55,12 +55,12 @@ export const siteData = [
     {
        nameSite: "William Hill", 
        info: {
-        bonusData: "",
-        bonusCode: "",
-        boostedOdds: "",
-        liveStreaming: "",
-        inPlayBetting: "",
-        termsCondidtions: "",
+        bonusData: "no",
+        bonusCode: "no",
+        boostedOdds: "no",
+        liveStreaming: "no",
+        inPlayBetting: "no",
+        termsCondidtions: "no",
        },
        link: {
         claimLink: "",
@@ -101,4 +101,20 @@ export const siteData = [
         },
     },
     
-]
+ const siteData2 = () => {
+    return (
+        <div className=''>
+        { siteData.list.map((nav, i) => (
+             <li key={i}>
+               <h1 className='li-head'>
+                 {nav.head}
+               </h1>
+               <p className="li-p1">
+                   {nav.paragraph}
+               </p>
+             </li>
+         ))
+       }
+       </div>
+    )
+}

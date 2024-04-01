@@ -1,45 +1,35 @@
 import React, { useState } from 'react';
-import Slider from 'rc-slider';
-import 'rc-slider/assets/index.css';
+import './css/live-odds.css';
 import '../Liveoods/api/live-odds-data';
+import Slider2 from './slider components/slider2';
+import { FaArrowCircleDown } from "react-icons/fa";
+import { FaArrowCircleUp } from "react-icons/fa";
 
 
-// const MultiVariableSlider = ({ stats, onChange }) => {
-//   const [currentStats, setCurrentStats] = useState(stats);
-// console.log(stats);
-//   const handleSliderChange = (value, statIndex) => {
-//     const updatedStats = [...currentStats];
-//     updatedStats[statIndex] = value;
-//     setCurrentStats(updatedStats);
-//     onChange(updatedStats); 
-//   };
+
+function MultiVariableSlider() {
+    const [sliderData, setSliderData] = useState({  });
+    const [dropdownOpen, setDropdownOpen] = useState(false);
+
+  const toggleDropdown = () => {
+    setDropdownOpen(!dropdownOpen);
+  };
+    return (
+      <div className='slider'>
+      <div tabIndex={0} className="dropdown dropdown-bottom">
+        <div role="button" className="btn m-1" onClick={toggleDropdown}>
+          <p>Event Form</p>
+          <Slider2 sliderData={sliderData}/>
+          {dropdownOpen ? <FaArrowCircleUp onClick={toggleDropdown} /> : <FaArrowCircleDown onClick={toggleDropdown} />}
+        </div>
+        <ul className={`dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52 ${dropdownOpen ? 'show' : ''}`}>
+          <li>
+            Item 1
+          </li>
+        </ul>
+      </div>
+    </div>
+    );
+  }
   
-//   return (
-//     <div>
-//       {data.attributes.Player_list.data.map((stat, index) => (
-//         <div key={index}>
-//           <label>{`Stat ${index + 1}`}</label>
-//           <Slider
-//             min={0}
-//             max={100}
-//             value={stat}
-//             onChange={(value) => handleSliderChange(value, index)}
-//           />
-//         </div>
-//       ))}
-//       {data.attributes.Imported_Variables.map((stat, index) => (
-//         <div key={index}>
-//           <label>{`Stat ${index + 1}`}</label>
-//           <Slider
-//             min={0}
-//             max={100}
-//             value={stat}
-//             onChange={(value) => handleSliderChange(value, index)}
-//           />
-//         </div>
-//       ))}
-//     </div>
-//   );
-// };
-
-// export default MultiVariableSlider;
+export default MultiVariableSlider;
