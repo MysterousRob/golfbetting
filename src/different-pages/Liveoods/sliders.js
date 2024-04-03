@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './css/live-odds.css';
-import '../Liveoods/api/live-odds-data';
+import '../data/footerData';
 import Slider2 from './slider components/slider2';
 import { FaArrowCircleDown } from "react-icons/fa";
 import { FaArrowCircleUp } from "react-icons/fa";
@@ -32,7 +32,7 @@ function MultiVariableSlider() {
             <FaArrowCircleDown onClick={toggleDropdown} />
           )}
         </div>
-        <ul className={`dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52 ${dropdownOpen ? 'show' : ''}`}>
+        <ul className={`dropdown-content z-[1] menu p-2 shadow bg-base-100 w-52 ${dropdownOpen ? 'show' : ''}`}>
           <li>
             Item 1
           </li>

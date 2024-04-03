@@ -1,6 +1,6 @@
 import React from "react";
 import './footer-css/footer.css'
-import { Foot2 } from "../Liveoods/api/live-odds-data";
+import { Foot2 } from "../data/footerData";
 
 function Footer() {
     return(

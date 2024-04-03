@@ -100,8 +100,9 @@ export const siteData = [
         reviewLink: "",
         },
     },
+]
     
- const siteData2 = () => {
+ export const siteData2 = () => {
     return (
         <div className=''>
         { siteData.list.map((nav, i) => (
