@@ -1,9 +1,9 @@
 import React from 'react';
-import './css/app.css';
-import './css/index.css';
+import './../assets/css/app.css';
+import './../assets/css/index.css';
 import Competiton from './tournaments/tournaments';
-import Header from './app-Header';
-import Footer from './forhomepg/footer';
+import Header from './../components/Header';
+import Footer from './../components/footer';
 //function NewPage
 
 function Week() {

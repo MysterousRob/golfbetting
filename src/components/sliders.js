@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import './css/live-odds.css';
-import '../data/footerData';
-import Slider2 from './slider components/slider2';
+import './../assets/css/live-odds.css';
+import './../state/footerData';
+import Slider2 from './../components/slider2';
 import { FaArrowCircleDown } from "react-icons/fa";
 import { FaArrowCircleUp } from "react-icons/fa";
 

@@ -1,8 +1,8 @@
-import TheMasters2 from './full-info-page/themaster2';
-import TheOpen2 from './full-info-page/theopen2';
-import UsPga2 from './full-info-page/uspga2';
-import OpenChamp2 from './full-info-page/theopen2';
-import './tourniecss/tournament.css';
+import TheMasters2 from './full info/themaster2';
+import TheOpen2 from './full info/theopen2';
+import UsPga2 from './full info/uspga2';
+import OpenChamp2 from './full info/openchamp2';
+import './../../assets/css/tournament.css';
 
 
 function Competiton() {

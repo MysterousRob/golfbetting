@@ -1,11 +1,13 @@
 import React from 'react';
-import './css/app.css';
-import Header from './app-Header.js';
-import List1 from './golf-betting-tips/List1.js';
-import Footer from './forhomepg/footer';
+import './../assets/css/app.css';
+import Header from './../components/Header.js';
+import List1 from './../pages/List1.js';
+import Footer from './../components/footer.jsx';
+import {tips} from '.';
 //function NewPage
 
 function Tips() {
+  
   return (
     <div>
       <Header />
@@ -22,7 +24,19 @@ function Tips() {
         practices, emphasizing the importance of only wagering what one 
         can afford to lose.
         </p>
-      <List1 />
+        <div className='li-1'>
+       { listData.map((nav, i) => (
+            <li key={i}>
+              <h1 className='li-head'>
+                {nav.head}
+              </h1>
+              <p className="li-p1">
+                  {nav.paragraph}
+              </p>
+            </li>
+        ))
+      }
+      </div>
       </div>
       <Footer />
     </div> 

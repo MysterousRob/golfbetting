@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
-import StarRating from './stars';
-import Star from './star';
+import StarRating from './../../components/stars';
+import Star from './../../components/star';
 
 const CustomStar = () => {
     <Star />

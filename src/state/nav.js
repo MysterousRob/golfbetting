@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from 'react-router-dom';
-import '../css/App-header.css';
+import './../assets/css/footer.css';
 
 export let navOptions = [
    {

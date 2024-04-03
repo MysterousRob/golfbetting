@@ -1,5 +1,5 @@
 import React from 'react';
-import '../css/live-odds.css';
+import './../assets/css/live-odds.css';
 
 
 function Slider2({ sliderData }) {

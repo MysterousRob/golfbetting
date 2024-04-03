@@ -1,10 +1,10 @@
 import React from 'react';
-import './css/sites.css'
-import Footer from '../different-pages/forhomepg/footer';
-import Header from '../different-pages/app-Header';
+import './../assets/css/app.css'
+import Footer from '../components/footer';
+import Header from './../components/Header';
 import {useState} from 'react';
-import StarRating from './stars';
-import williamHill from '../../src/photos/williamHill.png';
+import StarRating from './../components/stars';
+import williamHill from './../assets/photos/williamHill.png';
 
 // follow same styling as cricket betting with the coloring being the same as the main sites
 const BoxComponent = () => {

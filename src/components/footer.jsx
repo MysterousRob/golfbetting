@@ -1,6 +1,6 @@
 import React from "react";
-import './footer-css/footer.css'
-import { Foot2 } from "../data/footerData";
+import './../assets/css/footer.css'
+import { Foot2 } from "./../state/footerData";
 
 function Footer() {
     return(
@@ -17,10 +17,10 @@ function Footer() {
         <Foot2 />
   {/* <nav className="nav-footer">
     <h6 className="footer-title">Golf Predictions</h6> 
-    <a className="link link-hover">News</a>
     <a className="link link-hover">Live Scores</a>
     <a className="link link-hover">Life Time Scores</a>
     <a className="link link-hover">#</a>
+    <a className="link link-hover">News</a>
   </nav> 
   <nav className="nav-footer">
     <h6 className="footer-title">Quick Links</h6> 

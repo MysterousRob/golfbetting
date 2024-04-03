@@ -1,9 +1,9 @@
 import React from 'react';
-import './css/app.css';
-import './css/index.css';
-import Header from './app-Header';
-import MultiVariableSlider from './Liveoods/sliders';
-import Footer from './forhomepg/footer';
+import './../assets/css/app.css';
+import './../assets/css/index.css';
+import Header from './../components/Header';
+import MultiVariableSlider from './../components/sliders';
+import Footer from './../components/footer';
 
 //function NewPage
 

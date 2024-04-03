@@ -1,6 +1,6 @@
 import React from 'react';
-import './css/App-header.css';
-import Nav from '../different-pages/data/nav.js';
+import './../assets/css/app.css';
+import Nav from './../state/nav';
 //function NewPage
 
 
@@ -24,4 +24,3 @@ function Header() {
 
 export default Header;
 
-console.log();

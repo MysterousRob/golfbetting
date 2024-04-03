@@ -1,4 +1,4 @@
-import '../tourniecss/tournament.css'
+import './../../../assets/css/tournament.css';
 
 function TheOpen2() {
     return (

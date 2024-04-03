@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from 'react-router-dom';
-import '../../../src/different-pages/forhomepg/footer-css/footer.css';
+import './../assets/css/footer.css';
 
 //making nested array (FOLLOW STRUCTURE, DONT DOUBT IT, JUST DO IT)
 export const foot = [

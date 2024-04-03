@@ -1,15 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './different-pages/css/index.css';
-import Home from './different-pages/App-home';
+import './assets/css/index.css';
+import Home from './pages/Home.jsx';
 import reportWebVitals from './reportWebVitals';
-import LiveOdds from './different-pages/livegolfodds';
-import Sites from './golf betting sites/golfbettingsites';
-import Tips from './different-pages/golfbettingtips';
-import Week from './different-pages/Betsoftheweek';
-import OpenChamp from './different-pages/tournaments/openchamp';
-import TheMasters from './different-pages/tournaments/themaster';
-import TheOpen from './different-pages/tournaments/theopen';
+import LiveOdds from './pages/livegolfodds.js';
+import Sites from './pages/golfbettingsites.js';
+import Tips from './pages/golfbettingtips.js';
+import Week from './pages/Betsoftheweek.js';
+// import OpenChamp from './different-pages/tournaments/openchamp';
+// import TheMasters from './different-pages/tournaments/themaster';
+// import TheOpen from './different-pages/tournaments/theopen';
 
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 

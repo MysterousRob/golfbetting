@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from "react";
-import './css/sites.css';
-import Star from "./star";
-import App from "./starsapp"
+import './../assets/css/sites.css';
+import Star from "./../components/star";
+import App from "./../pages/betting/ratingindex"
 
 const StarRating = ({totalStars, initialRating, onChange,}) => {
   const [rating, setRating] = useState(initialRating || 0);
