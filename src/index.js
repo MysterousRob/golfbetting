@@ -7,6 +7,10 @@ import LiveOdds from './different-pages/livegolfodds';
 import Sites from './golf betting sites/golfbettingsites';
 import Tips from './different-pages/golfbettingtips';
 import Week from './different-pages/Betsoftheweek';
+import OpenChamp from './different-pages/tournaments/openchamp';
+import TheMasters from './different-pages/tournaments/themaster';
+import TheOpen from './different-pages/tournaments/theopen';
+
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 
 
@@ -31,6 +35,73 @@ const router = createBrowserRouter([
   path: "/Sites", 
   element: <Sites />,
  },
+])
+
+const router2 = createBrowserRouter([
+  {
+    path2: "",
+    element2: "",
+  },
+  {
+    path2: "",
+    element2: "",
+  },
+  {
+    path2: "",
+    element2: "",
+  },
+  {
+    path2: "",
+    element2: "",
+  },
+  {
+    path2: "",
+    element2: "",
+  },
+  {
+    path2: "",
+    element2: "",
+  },
+  {
+    path2: "",
+    element2: "",
+  },
+  {
+    path2: "",
+    element2: "",
+  },
+  {
+    path2: "",
+    element2: "",
+  },
+  {
+    path2: "",
+    element2: "",
+  },
+  {
+    path2: "",
+    element2: "",
+  },
+  {
+    path2: "",
+    element2: "",
+  },
+  {
+    path2: "",
+    element2: "",
+  },
+  {
+    path2: "",
+    element2: "",
+  },
+  {
+    path2: "",
+    element2: "",
+  },
+  {
+    path2: "",
+    element2: "",
+  },
 ])
 
 

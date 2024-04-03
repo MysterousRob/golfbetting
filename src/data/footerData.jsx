@@ -9,19 +9,31 @@ export const foot = [
         links:  [
             {
                 title: "News",
-                to: "",
+                href: "",
             },
             {
                 title: "Live Scores",
-                to: "",
+                href: "",
             },
             {
                 title: "Life-Time Scores",
-                to: "",
+                href: "",
+            },
+            {
+                title: "GBS Predictor",
+                href: "",
+            },
+            {
+                title: "GBS Predictor Info",
+                href: "",
             },
             {
                 title: "",
-                to: "",
+                href: "",
+            },
+            {
+                title: "",
+                href: "",
             },
         ],
     },
@@ -30,27 +42,27 @@ export const foot = [
         links:  [
             {
                 title: "Home",
-                to: "src/different-pages/App-home.jsx",
+                Href: "src/different-pages/App-home.jsx",
             },
             {
                 title: "Golf Betting Tips",
-                to: "src/different-pages/golfbettingtips.js",
+                Href: "src/different-pages/golfbettingtips.js",
             },
             {
                 title: "Live Golf Odds",
-                to: "src/different-pages/livegolfodds.js",
+                Href: "src/different-pages/livegolfodds.js",
             },
             {
                 title: "Golf Bets of the Week",
-                to: "src/different-pages/Betsoftheweek.js",
+                Href: "src/different-pages/Betsoftheweek.js",
             },
             {
                 title: "",
-                to: "",
+                Href: "",
             },
             {
                 title: "",
-                to: "",
+                Href: "",
             },
         ],
     },
@@ -59,23 +71,23 @@ export const foot = [
         links:  [
             {
                 title: "The Masters",
-                to: "src/different-pages/tournaments/themaster.js",
+                Href: "src/different-pages/tournaments/themaster.js",
             },
             {
                 title: "The Open Championship",
-                to: "src/different-pages/tournaments/openchamp.js",
+                Href: "src/different-pages/tournaments/openchamp.js",
             },
             {
                 title: "US PGA Championship",
-                to: "src/different-pages/tournaments/uspga.js",
+                Href: "src/different-pages/tournaments/uspga.js",
             },
             {
                 title: "The US Open",
-                to: "src/different-pages/tournaments/theopen.js",
+                Href: "src/different-pages/tournaments/theopen.js",
             },
             {
                 title: "",
-                to: "",
+                Href: "",
             },
         ],
     },
@@ -84,11 +96,11 @@ export const foot = [
         links:  [
             {
                 title: "Betting Sites",
-                to: "src/different-pages/golfbettingsites.js",
+                Href: "src/different-pages/golfbettingsites.js",
             },
             {
                 title: "Betting Promotions",
-                to: "",
+                Href: "",
             },
         ],
     },
@@ -97,11 +109,11 @@ export const foot = [
         links:  [
             {
                 title: "About Us",
-                to: "src/different-pages/forhomepg/AboutUs.js",
+                href: "src/different-pages/forhomepg/AboutUs.js",
             },
             {
                 title: "Form",
-                to: "",
+                href: "",
             },
         ],
     },
@@ -114,7 +126,7 @@ export const Foot2 = () => {
             <div key={i} className="nav-footer">
                 <h2>{footItems.title}</h2>
                     {footItems.links.map((nav, i) => (
-                        <Link key={i} to={nav.to}>
+                        <Link key={i} to={nav.href}>
                             <p className="">
                                 {nav.title}
                             </p>
