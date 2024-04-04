@@ -1,6 +1,8 @@
 import React from "react";
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import './../assets/css/footer.css';
+import { navOptions } from "./nav";
+
 
 //making nested array (FOLLOW STRUCTURE, DONT DOUBT IT, JUST DO IT)
 export const foot = [
@@ -9,11 +11,11 @@ export const foot = [
         links:  [
             {
                 title: "News",
-                href: "",
+                href: "/News",
             },
             {
-                title: "Live Scores",
-                href: "",
+                title: "Live Standing",
+                href: "/Scores",
             },
             {
                 title: "Life-Time Scores",
@@ -42,27 +44,27 @@ export const foot = [
         links:  [
             {
                 title: "Home",
-                Href: "src/different-pages/App-home.jsx",
+                href: "../",
             },
             {
                 title: "Golf Betting Tips",
-                Href: "src/different-pages/golfbettingtips.js",
+                href: "../Tips",
             },
             {
                 title: "Live Golf Odds",
-                Href: "src/different-pages/livegolfodds.js",
+                href: "../Odds",
             },
             {
                 title: "Golf Bets of the Week",
-                Href: "src/different-pages/Betsoftheweek.js",
+                href: "../Week",
             },
             {
                 title: "",
-                Href: "",
+                href: "",
             },
             {
                 title: "",
-                Href: "",
+                href: "",
             },
         ],
     },
@@ -71,23 +73,23 @@ export const foot = [
         links:  [
             {
                 title: "The Masters",
-                Href: "src/different-pages/tournaments/themaster.js",
+                href: "../Masters",
             },
             {
                 title: "The Open Championship",
-                Href: "src/different-pages/tournaments/openchamp.js",
+                href: "../Open",
             },
             {
                 title: "US PGA Championship",
-                Href: "src/different-pages/tournaments/uspga.js",
+                href: "../OpenChamp",
             },
             {
                 title: "The US Open",
-                Href: "src/different-pages/tournaments/theopen.js",
+                href: "../PGA",
             },
             {
                 title: "",
-                Href: "",
+                href: "",
             },
         ],
     },
@@ -96,11 +98,11 @@ export const foot = [
         links:  [
             {
                 title: "Betting Sites",
-                Href: "src/different-pages/golfbettingsites.js",
+                href: "/Sites",
             },
             {
                 title: "Betting Promotions",
-                Href: "",
+                href: "",
             },
         ],
     },
@@ -109,7 +111,7 @@ export const foot = [
         links:  [
             {
                 title: "About Us",
-                href: "src/different-pages/forhomepg/AboutUs.js",
+                href: "/About",
             },
             {
                 title: "Form",
@@ -126,11 +128,11 @@ export const Foot2 = () => {
             <div key={i} className="nav-footer">
                 <h2>{footItems.title}</h2>
                     {footItems.links.map((nav, i) => (
-                        <Link key={i} to={nav.href}>
+                        <NavLink key={i} to={nav.href}>
                             <p className="">
                                 {nav.title}
                             </p>
-                        </Link>
+                        </NavLink>
              ))}
             </div>
         ))}

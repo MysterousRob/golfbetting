@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from 'react-router-dom';
-import './../assets/css/footer.css';
+import './../assets/css/App-header.css';
+import './../index.js'
 
 export let navOptions = [
    {
@@ -25,32 +26,7 @@ export let navOptions = [
     },
 ]
 
-export const tournaments = [
-  {
-    href: "different-pages\tournaments\openchamp.js",
-    title: "The Open",
-  },
-  {
-    href: "different-pages\tournaments\themaster.js",
-    title: "The Masters",
-  },
-  {
-    href: "different-pages\tournaments\theopen.js",
-    title: "The British Open",
-  },
-  {
-    href: "different-pages/tournaments/uspga.js",
-    title: "US PGA Championship",
-  },
-  {
-    href: "different-pages\tournaments\tournaments.js",
-    title: "Tournaments",
-  },
-]
 
-// function quickLinks () {
-  
-//}
 const Nav = () => {
   return (
     <div className="nav">
@@ -64,9 +40,8 @@ const Nav = () => {
     </div>
   );
 };
+
 export default Nav;
-
-
 // quickLink2 component
 // export const quickLink2 = () => {
 //   return (

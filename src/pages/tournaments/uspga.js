@@ -1,6 +1,6 @@
-import './tourniecss/tournament.css'
-import Header from '../app-Header';
-import Footer from '../forhomepg/footer';
+import './../../assets/css/tournament.css'
+import Header from './../../components/Header';
+import Footer from './../../components/footer';
 
 function UsPga() {
     return (

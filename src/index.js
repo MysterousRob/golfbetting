@@ -7,13 +7,18 @@ import LiveOdds from './pages/livegolfodds.js';
 import Sites from './pages/golfbettingsites.js';
 import Tips from './pages/golfbettingtips.js';
 import Week from './pages/Betsoftheweek.js';
-// import OpenChamp from './different-pages/tournaments/openchamp';
-// import TheMasters from './different-pages/tournaments/themaster';
-// import TheOpen from './different-pages/tournaments/theopen';
+import OpenChamp from './pages/tournaments/openchamp.js';
+import TheMasters from './pages/tournaments/themaster.js';
+import TheOpen from './pages/tournaments/theopen.js';
+import UsPga from './pages/tournaments/uspga.js';
+import News from './pages/News.js';
+import LiveScores from './components/LiveScores.js';
+import AboutUs from './pages/AboutUs.js';
 
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
+import { ImageOff } from 'lucide-react';
 
-
+//header router
 const router = createBrowserRouter([
  {
   path: "/", 
@@ -35,72 +40,42 @@ const router = createBrowserRouter([
   path: "/Sites", 
   element: <Sites />,
  },
-])
-
-const router2 = createBrowserRouter([
+ //footer router
   {
-    path2: "",
-    element2: "",
+    path: "/Masters", 
+    element: <TheMasters />,
   },
   {
-    path2: "",
-    element2: "",
+    path: "/Open", 
+    element: < TheOpen/>,
   },
   {
-    path2: "",
-    element2: "",
+    path: "/OpenChamp", 
+    element: <OpenChamp />,
   },
   {
-    path2: "",
-    element2: "",
+    path: "/PGA", 
+    element: <UsPga />,
   },
   {
-    path2: "",
-    element2: "",
+    path: "/News", 
+    element: <News />,
   },
   {
-    path2: "",
-    element2: "",
+    path: "/Scores", 
+    element: <LiveScores />,
   },
   {
-    path2: "",
-    element2: "",
+    path: "/About", 
+    element: <AboutUs />,
   },
   {
-    path2: "",
-    element2: "",
+    path: "", 
+    element: "",
   },
   {
-    path2: "",
-    element2: "",
-  },
-  {
-    path2: "",
-    element2: "",
-  },
-  {
-    path2: "",
-    element2: "",
-  },
-  {
-    path2: "",
-    element2: "",
-  },
-  {
-    path2: "",
-    element2: "",
-  },
-  {
-    path2: "",
-    element2: "",
-  },
-  {
-    path2: "",
-    element2: "",
-  },
-  {
-    path2: "",
-    element2: "",
+    path: "", 
+    element: "",
   },
 ])
 
