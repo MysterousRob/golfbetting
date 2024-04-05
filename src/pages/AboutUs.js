@@ -1,6 +1,6 @@
-import './footer-css/footer.css';
+import './../assets/css/footer.css';
 import React from 'react';
-import MyForm from './form';
+import MyForm from './../components/contact/form';
 
 function AboutUs() {
     return (
