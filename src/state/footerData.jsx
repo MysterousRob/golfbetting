@@ -27,7 +27,7 @@ export const foot = [
             },
             {
                 title: "GBS Predictor Info",
-                href: "",
+                href: "/Info",
             },
             {
                 title: "",

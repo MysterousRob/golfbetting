@@ -14,6 +14,7 @@ import UsPga from './pages/tournaments/uspga.js';
 import News from './pages/News.js';
 import LiveScores from './components/LiveScores.js';
 import AboutUs from './pages/AboutUs.js';
+import GbsInfo from './pages/GBSpredictorinfo.js';
 
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import { ImageOff } from 'lucide-react';
@@ -70,8 +71,8 @@ const router = createBrowserRouter([
     element: <AboutUs />,
   },
   {
-    path: "", 
-    element: "",
+    path: "/Info", 
+    element: <GbsInfo />,
   },
   {
     path: "", 

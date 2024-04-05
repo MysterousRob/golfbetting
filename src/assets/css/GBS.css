@@ -1,0 +1,26 @@
+.dropdown dropdown-bottom {
+    color: black;
+}
+.dropdown-content {
+
+}
+
+
+/*my slider itsself*/
+.slider *{
+    color: black;
+}
+
+/*predictor info*/
+.section {
+    background-color: white;
+}
+.section h1{
+    color: black;
+    background-color: white;
+    text-align: center;
+    font-size: 50px;
+}
+.header {
+    background-color: white;
+}

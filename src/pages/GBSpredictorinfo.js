@@ -1,21 +1,26 @@
 import React from "react";
-import Header from "../../app-Header";
-import Footer from "../../forhomepg/footer";
-import { BadgeSwissFrancIcon } from "lucide-react";
+import Header from "./../components/Header";
+import Footer from "./../components/footer";
+import './../assets/css/GBS.css'
 
 
-function gbsInfo() {
+function GbsInfo() {
     return (
         <div>
           <Header />
-            <div>
-                <h1>
-                    GBS presict Information
-                </h1>
+            <div className="section">
+              <div className="header">
+                  <h1>
+                      GBS Predictor Information
+                  </h1>
+              </div>
+              <div>
+
+              </div>
             </div>
           <Footer />
         </div>
     )
 }
 
-export default gbsInfo;
+export default GbsInfo;
