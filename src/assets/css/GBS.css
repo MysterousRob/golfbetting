@@ -1,14 +1,62 @@
-.dropdown dropdown-bottom {
+.slider{
+
+}
+
+.dropdown{
+    position: relative; 
     color: black;
 }
+
+.btn {
+    position: relative; 
+}
+
 .dropdown-content {
+    position: relative;
+    top: 100px; 
+    left: 0;
+    width: 100%;
+    transform: translateY(50px);
+    z-index: 1;
+    display: none; 
+    padding: 0; 
+    margin: 0; 
+    border-radius: 8px; 
+    background-color: #fff; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    border-top: none; 
+}
 
+.dropdown.open .dropdown-content{
+   display: block;
 }
 
 
-/*my slider itsself*/
-.slider *{
+
+.slider-list {
+    position: relative;
+    list-style: none; 
+    padding: 0; 
+    margin: 0;
+    display: block;
+}
+
+.slider-list p {
+    margin: 0; 
+    padding: 13px; 
+    border-bottom: 1px solid #ccc; 
+    border-radius: 0px; 
+}
+
+.slider-list p:last-child {
+    border-bottom: none; 
+}
+.color {
     color: black;
+}
+
+.slider2 {
+    width: 100px; 
 }
 
 /*predictor info*/

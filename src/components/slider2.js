@@ -5,7 +5,7 @@ import './../assets/css/GBS.css';
 function Slider2({ sliderData }) {
 
     return (
-      <div className='slider'>
+      <div className='slider-input'>
         <input 
         type="range" 
         min={0} 
