@@ -35,6 +35,11 @@
   flex-direction: column;
 }
 
+.nav-footer > h2 {
+  margin-bottom: 16px;
+  border-bottom: 1px solid white;
+}
+
 .container {
   background: #000;
   height: 60px;

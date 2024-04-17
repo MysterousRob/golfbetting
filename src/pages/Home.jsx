@@ -3,7 +3,7 @@ import './../assets/css/app.css';
 import './../assets/css/index.css';
 import Header from './../components/Header';
 import Competiton from './tournaments/tournaments';
-import Footer from './../components/footer'
+import Footer from '../components/Footer'
 //function NewPage
 
 //need to fix background and impliment my form to home page 

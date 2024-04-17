@@ -3,7 +3,7 @@ import './../assets/css/app.css';
 import './../assets/css/index.css';
 import Competiton from './tournaments/tournaments';
 import Header from './../components/Header';
-import Footer from './../components/footer';
+import Footer from '../components/Footer';
 //function NewPage
 
 function Week() {

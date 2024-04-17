@@ -7,51 +7,47 @@
 .in-body{
   color: white;
 }
-.to-head{
-  color: white;
-  align-content: flex-start;
-}
 .header{
-color: white;
-background-color: black;
-padding: 5px;
-
+  color: white;
+  background-color: black;
+  padding: 5px;
+  size: 30px;
 }
 
 .nav {
-display: flex;
-padding: 15px;
-align-items: baseline;
-background: transparent;
-border: none;
-color: rgb(207, 0, 0) !important;
-font-size: 17px;
-gap: 10px;
-}
-.nav * :hover {
-  border: 1px solid white;
-  transition: border 0.5s;
-  border-radius: 4px;
+  display: flex;
+  align-items: baseline;
+  background: transparent;
+  font-size: 17px;
+  gap: 10px;
   padding: 8px 16px; 
+}
 
+.nav * {
+  /* Reserves space for border, so the hover doesn't cause any movement */
+  border: 1px solid transparent;
+  padding: 2px 6px
 }
-.header{
-  size: 30px;
+
+.nav * :hover {
+  border-color: white;
+  transition: border-color 0.5s;
+  border-radius: 4px;
 }
+
 .App-header {
   background-color: black;
   min-height: 50px;
   display: flex;
-  align-content: flex-start;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-  margin: 0;
   padding: 20px;
   font-size: 35px;
 }
-.h1 {
+
+h1 {
   padding: 6px;
 }
 

@@ -8,12 +8,10 @@ function Header() {
   return (
     <div className='in-body'>
       <header className='App-header'>
-        <h1 className='h1'>
+        <h1>
           Golf Betting
         </h1>
-      <div>
         <Nav />
-      </div>  
       </header>
     </div> 
   );
