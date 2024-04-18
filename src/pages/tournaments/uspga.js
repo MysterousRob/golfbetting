@@ -1,6 +1,6 @@
 import './../../assets/css/tournament.css'
 import Header from './../../components/Header';
-import Footer from './../../components/footer';
+import Footer from '../../components/Footer';
 
 function UsPga() {
     return (

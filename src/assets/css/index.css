@@ -44,19 +44,21 @@ p {
   font-size: 18px;
   font-family: 'Times New Roman', Times, serif;
   font-weight: bold;
-  margin-left: 5px;
+  /* margin-left: 5px; */
   color: white;
 }
-/*bets of teh week, the live odds, and some of the betting tips*/
+/*bets of the week, the live odds, and some of the betting tips*/
 .basic {
   background-color: black;
   color: white;
   margin: auto;
   padding: 0;
 }
-h2 {
+
+/* Why is every h2 set to have a big left margin? */
+/* h2 {
   margin-left: 50px;
-}
+} */
 /* for the about us page*/
 #about {
 background-color: black;
@@ -77,7 +79,7 @@ text-align: cente
 #photos {
   width: 50%;  
   display: inline-flex;
-  margin-left: 10px;
+  /* margin-left: 10px; */
   margin-top: 5px;
 }
 /* img {

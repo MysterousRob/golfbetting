@@ -7,7 +7,7 @@ import { navOptions } from "./nav";
 //making nested array (FOLLOW STRUCTURE, DONT DOUBT IT, JUST DO IT)
 export const foot = [
     {
-        title: "Golf_Predictions",
+        title: "Golf Predictions",
         links:  [
             {
                 title: "News",
