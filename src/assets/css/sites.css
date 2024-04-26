@@ -5,11 +5,7 @@
   text-align: center;
 }
 
-.box {
-    display: flex;
-    /* justify-content: space-around; */
-    flex-direction: row;
-  }
+
 
   .image_container {
     aspect-ratio: 1/1;

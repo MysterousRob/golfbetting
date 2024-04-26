@@ -23,34 +23,56 @@ const BoxComponent = () => {
         <h1>
           Different Golf Betting Websites
         </h1>
-        <div className="box">
-          
-        <div className='image_container'>
-          <img src={williamHill} alt="William Hill" />
+       <div className='parent-box'>
+        <div className='img-box'>
+
+        </div>
+        <div className='info-box'>
+          <div>
+            <h1>
+              box 1
+            </h1>
+          </div>
+          <div>
+            <h1>
+              box 2
+            </h1>
+          </div>
+          <div>
+            <h1>
+              box 3
+            </h1>
+          </div>
+          <div>
+            <h1>
+              box 4
+            </h1>
+          </div>
         </div>
 
-        <div className='right-side'>
-          <div className="text-section">
-            {/* 10 pieces of text
-            {[...Array(10)].map((_, index) => (
-              <p key={index}>Text {index + 1}</p>
-            ))} */}
+        <div className='claim-box'>
+          <div>
+            <h1>
+              box 1
+            </h1>
           </div>
-          <div className="star_rating">
-            <StarRating />
+          <div>
+            <h1>
+              box 2
+            </h1>
           </div>
-          <div className={`menu ${isMenuOpen ? 'open' : ''}`}>
-            {/* map goes here */}
+          <div>
+            <h1>
+              box 3
+            </h1>
           </div>
-          
-          <div className='button'>
-            <button onClick={toggleMenu}>
-              Toggle Menu
-            </button>
+          <div>
+            <h1>
+              box 4
+            </h1>
           </div>
         </div>
-        
-            </div>
+       </div>
       </div>
     <Footer />
     </div>

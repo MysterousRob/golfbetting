@@ -2,7 +2,7 @@ import React from "react";
 import "../css/live-odds.css"
 
 
-const sliderData = [
+export const sliderData = [
     {
         form: "Event Form",
         name2: [
@@ -89,6 +89,7 @@ const sliderData = [
             },
         ]
     },
+    
     {
         form: "Strokes Gained",
         name2: [
@@ -109,6 +110,7 @@ const sliderData = [
             },
         ]
     },
+    //slider is going to go to 100
     {
         form: "Skill Stats",
         name2: [

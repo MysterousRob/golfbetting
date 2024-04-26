@@ -4,7 +4,7 @@ import './../state/footerData';
 import Slider2 from './../components/slider2';
 import { FaArrowCircleDown } from "react-icons/fa";
 import { FaArrowCircleUp } from "react-icons/fa";
-
+import { sliderData } from './sliderdata';
 
 
 function MultiVariableSlider() {
@@ -80,7 +80,7 @@ function MultiVariableSlider() {
           </ul>
         </div>
         {/* curent form */}
-        <div tabIndex={0} className="dropdown dropdown-bottom">
+        {/* <div tabIndex={0} className="dropdown dropdown-bottom">
                     <div role="button" className="btn m-1" onClick={() => toggleDropdown(1)}>
                         <p className='color'>Event Form</p>
                         <Slider2
@@ -131,7 +131,7 @@ function MultiVariableSlider() {
                 </p>
             </li>
           </ul>
-        </div>
+        </div> */}
       </div>
     </div>
   );
