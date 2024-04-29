@@ -79,59 +79,12 @@ function MultiVariableSlider() {
             </li>
           </ul>
         </div>
-        {/* curent form */}
-        {/* <div tabIndex={0} className="dropdown dropdown-bottom">
-                    <div role="button" className="btn m-1" onClick={() => toggleDropdown(1)}>
-                        <p className='color'>Event Form</p>
-                        <Slider2
-                            value={sliderValue}
-                            onChange={handleSliderChange}
-                        />
-                        {dropdownOpen[1] ? (
-                            <FaArrowCircleUp onClick={() => toggleDropdown(1)} />
-                        ) : (
-                            <FaArrowCircleDown onClick={() => toggleDropdown(1)} />
-                        )}
-                    </div>
-                    <ul className={`dropdown-content z-[1] menu p-2 shadow bg-base-100 w-52 ${dropdownOpen[1] ? 'show' : ''}`}>
-          <li className='slider-list'>
-                <p className='color'>Event Average
-                  <Slider2
-                    className="slider2"
-                    value={sliderValue}
-                    onChange={handleSliderChange}
-                  />
-                </p>
-            </li>
-            <li className='slider-list'>
-                <p className='color'>Event top 10
-                  <Slider2
-                    className="slider2"
-                    value={sliderValue}
-                    onChange={handleSliderChange}
-                  />
-                </p>
-            </li>
-            <li className='slider-list'>
-                <p className='color'>Event Wins
-                  <Slider2
-                    className="slider2"
-                    value={sliderValue}
-                    onChange={handleSliderChange}
-                  />
-                </p>
-            </li>
-            <li className='slider-list'>
-                <p className='color'>Last Season
-                  <Slider2
-                    className="slider2"
-                    value={sliderValue}
-                    onChange={handleSliderChange}
-                  />
-                </p>
-            </li>
-          </ul>
-        </div> */}
+        {sliderData.map((sliderData, i) => {
+          
+        })}
+<div>
+
+</div>
       </div>
     </div>
   );
