@@ -2,9 +2,9 @@ import React from 'react';
 import './../assets/css/app.css';
 import './../assets/css/index.css';
 import Header from './../components/Header';
-import MultiVariableSlider from './../components/sliders';
+import MultiVariableSlider from '../components/Slider/sliders';
 import Footer from '../components/footer';
-import fetchLeaderboard from '../components/api data/Leaderboard';
+import fetchLeaderboard from '../components/Leaderboard/api data/Leaderboard';
 
 //function NewPage
 

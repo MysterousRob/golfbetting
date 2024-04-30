@@ -1,5 +1,5 @@
 import React from "react";
-
+import "../../assets/css/GBS.css"
 
 
 export const sliderData = [
