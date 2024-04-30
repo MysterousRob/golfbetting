@@ -24,6 +24,13 @@ function MultiVariableSlider() {
     setSliderValue(newValue);
   };
   console.log('Dropdown open state:', dropdownOpen);
+  const newDropdownPositions = dropdownPositions.map((position, i) => {
+    if (i >= index) {
+      return position + (prevState[index] ? 0 : 1) * (prevState[index] ? -50 : 50);
+    }
+    return position;
+  });
+  setDropdownPositions(newDropdownPositions);
    return (
     <div>
      <div className='slider'>
@@ -43,12 +50,13 @@ function MultiVariableSlider() {
           </div>
           <ul className={`dropdown-content ${dropdownOpen[0] ? 'show' : ''}`}>
               <li className='slider-list'>
-                  <p className='color'>Event Average</p>
-                  <Slider1
-                      className="slider2"
-                      value={sliderValue}
-                      onChange={handleSliderChange}
-                  />
+                  <p className='color'>Event Average
+                    <Slider1
+                        className="slider2"
+                        value={sliderValue}
+                        onChange={handleSliderChange}
+                    />
+                  </p>
               </li>
               <li className='slider-list'>
                   <p className='color'>Event top 10
@@ -80,7 +88,7 @@ function MultiVariableSlider() {
             </ul>
         </div>
      {/* Current form */}
-        <div tabIndex={0} className="dropdown">
+        <div tabIndex={1} className="dropdown">
           <div role="button" className="btn" onClick={() => toggleDropdown(1)}>
               <p className='color'>Current Form</p>
               <Slider1
