@@ -1,28 +1,32 @@
 .slider{
     display: flex;
     flex-direction: column;
+    margin-right: 60%;
 }
 
 .dropdown {
     position: relative;
     color: black;
-    margin-bottom: 20px; /* Add spacing between dropdowns */
+    margin-bottom: 20px; 
   }
-  
+  .btn{
+    display: flex;
+    justify-content: center;
+  }
   .dropdown .btn {
     position: relative;
   }
   
   .dropdown-content {
-    position: absolute;
-    top: 100%; /* Position dropdowns below buttons */
+    position: relative;
+    top: 100%; 
     left: 0;
     width: 100%;
     z-index: 1;
     display: none;
     padding: 0;
     margin: 0;
-    border-radius: 8px;
+    border-radius: 0px;
     background-color: #fff;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     border-top: none;
