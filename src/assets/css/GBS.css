@@ -87,23 +87,22 @@
     border: #fff solid 3px;
     border-radius: 10px;
 }
-.leaderboard * {
-    
-}
+
 .container2 {
     width: 100%; 
     border-collapse: collapse; 
   }
+
   .text-th {
     background-color: #f2f2f2; 
     text-align: left;
-    padding: 8px; /* Add padding for better spacing */
-    position: relative; /* Needed for absolute positioning */
+    padding: 8px; 
+    position: relative;
   }
   
   .icon {
     position: absolute;
-    right: 5px; /* Adjust the distance from the right */
+    right: 5px; 
     top: 50%;
     transform: translateY(-50%);
   }
@@ -113,8 +112,7 @@
   }
 .text-th,
 .text-tb {
-  border: 1px solid #000; 
-  padding: 8px; /* Add padding for better spacing */
+  padding: 8px; 
   background-color: white;
   text-align: center;
 }

@@ -7,6 +7,7 @@ export function Slider1({sliderData}) {
     <>
       <div className='slider-input1'>
         <input 
+        onChange={console.log}
         type="range" 
         min={0} 
         max="10" 

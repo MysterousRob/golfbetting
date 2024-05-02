@@ -8,7 +8,7 @@ import { sliderData } from "./sliderdata";
 
 function MultiVariableSlider() {
   const [dropdownOpen, setDropdownOpen] = useState([false, false]);
-  const [sliderValue, setSliderValue] = useState([0,100]);
+  const [sliderValue, setSliderValue] = useState([]);
 
   const toggleDropdown = (index) => {
     setDropdownOpen((prevState) => {
