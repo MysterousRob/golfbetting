@@ -8,7 +8,7 @@ import { sliderData } from "./sliderdata";
 
 function MultiVariableSlider() {
   const [dropdownOpen, setDropdownOpen] = useState([false, false]);
-  const [sliderValue, setSliderValue] = useState([0, 100]);
+  const [sliderValue, setSliderValue] = useState([0,100]);
 
   const toggleDropdown = (index) => {
     setDropdownOpen((prevState) => {
@@ -32,8 +32,10 @@ function MultiVariableSlider() {
         {/* event form */}
         <div tabIndex={0} className="dropdown">
           <div role="button" className="btn">
-            <p className="color">Event Form</p>
-            <Slider1 value={sliderValue} onChange={handleSliderChange} />
+            <p className="color">
+              Event Form
+            </p>
+            <Slider1 value={sliderValue} onChange={(newValue) => handleSliderChange(newValue, 0)} />
             {dropdownOpen[0] ? (
               <FaArrowCircleUp onClick={() => toggleDropdown(0)} />
             ) : (
@@ -44,42 +46,46 @@ function MultiVariableSlider() {
             <li className="slider-list">
               <p className="color">
                 Event Average
+              </p>
                 <Slider1
                   className="slider2"
                   value={sliderValue}
                   onChange={handleSliderChange}
                 />
-              </p>
+              
             </li>
             <li className="slider-list">
               <p className="color">
                 Event top 10
+              </p>
                 <Slider1
                   className="slider2"
                   value={sliderValue}
                   onChange={handleSliderChange}
                 />
-              </p>
+              
             </li>
             <li className="slider-list">
               <p className="color">
                 Event Wins
+              </p>
                 <Slider1
                   className="slider2"
                   value={sliderValue}
                   onChange={handleSliderChange}
                 />
-              </p>
+              
             </li>
             <li className="slider-list">
               <p className="color">
                 Last Season
+              </p>
                 <Slider1
                   className="slider2"
                   value={sliderValue}
                   onChange={handleSliderChange}
                 />
-              </p>
+              
             </li>
           </ul>
         </div>

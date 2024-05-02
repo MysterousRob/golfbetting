@@ -5,6 +5,7 @@ import Header from './../components/Header';
 import MultiVariableSlider from '../components/Slider/sliders';
 import Footer from '../components/footer';
 import fetchLeaderboard from '../components/Leaderboard/api data/Leaderboard';
+import LeaderboardOutline from '../components/Leaderboard/api data/LeaderboardTable';
 
 //function NewPage
 
@@ -18,7 +19,12 @@ function LiveOdds() {
         <Header />
       </div>
         <div className='Live-Odds'>
-          <MultiVariableSlider />
+          <div className='Live-Odds-Slider'>
+            <MultiVariableSlider />
+          </div>
+          <div className='Live-Odds-Leaderboard'>
+            <LeaderboardOutline />
+          </div>
         </div>
       <Footer />
     </div>

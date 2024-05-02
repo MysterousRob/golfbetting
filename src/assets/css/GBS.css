@@ -1,7 +1,7 @@
 .slider{
     display: flex;
     flex-direction: column;
-    margin-right: 60%;
+    margin-left: 20%;
 }
 
 .dropdown {
@@ -74,4 +74,31 @@
 }
 .header {
     background-color: white;
+}
+
+/*leaderboard css*/
+.leaderboard{
+    margin-left: 5px;
+    border: #fff solid 3px;
+    border-radius: 10px;
+}
+.container2{
+    margin: 10px;
+}
+.container3{
+    margin: 10px;
+}
+.container4{
+    margin: 10px;
+}
+
+/*Live golf Odds css*/
+.Live-Odds{
+    display: flex;
+}
+.Live-Odds-Slider{
+    flex: 1;
+}
+.Live-Odds-Leaderboard{
+    flex: 1;
 }
