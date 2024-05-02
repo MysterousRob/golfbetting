@@ -1,7 +1,7 @@
 .slider{
     display: flex;
     flex-direction: column;
-    margin-left: 20%;
+    margin-left: 15%;
 }
 
 .dropdown {
@@ -77,19 +77,46 @@
 }
 
 /*leaderboard css*/
+.NEO {
+    width: 100%; 
+    border: 1px solid #000; 
+    padding: 10px; 
+  }
 .leaderboard{
-    margin-left: 5px;
+    margin-left: 10px;
     border: #fff solid 3px;
     border-radius: 10px;
 }
-.container2{
-    margin: 10px;
+.leaderboard * {
+    
 }
-.container3{
-    margin: 10px;
-}
-.container4{
-    margin: 10px;
+.container2 {
+    width: 100%; 
+    border-collapse: collapse; 
+  }
+  .text-th {
+    background-color: #f2f2f2; 
+    text-align: left;
+    padding: 8px; /* Add padding for better spacing */
+    position: relative; /* Needed for absolute positioning */
+  }
+  
+  .icon {
+    position: absolute;
+    right: 5px; /* Adjust the distance from the right */
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .container-box {
+    text-align: center; 
+  }
+.text-th,
+.text-tb {
+  border: 1px solid #000; 
+  padding: 8px; /* Add padding for better spacing */
+  background-color: white;
+  text-align: center;
 }
 
 /*Live golf Odds css*/
