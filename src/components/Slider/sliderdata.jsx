@@ -36,7 +36,7 @@ export const sliderData = [
                 name: "Last but 3 Tournament",
             },
             {
-                name: "Last but 4 Tournament",
+                name: "Last but 5 Tournament",
             },
         ]
     },
@@ -67,7 +67,7 @@ export const sliderData = [
         ]
     },
     {
-        form: "Event Spacific",
+        form: "Event Specific",
         name2: [
             {
                 name: "Par 70",
